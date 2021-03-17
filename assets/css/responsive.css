@@ -1,0 +1,1045 @@
+/*----------------------------------------*/
+/*  RESPONSIVE CSS START 
+/*----------------------------------------*/
+
+/* laptop devices 1200 - 1600 */
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+
+    /* common area start */
+    .cards .tweet-card .f-card {
+        padding: 16px;
+    }
+
+    .tweet-card .f-card.arrow-right::after {
+        right: -58px;
+        border-left: 30px solid white !important;
+    }
+
+    .tweet-card .f-card.arrow-left::after {
+        left: -58px;
+        border-right: 30px solid white !important;
+    }
+
+
+    /* whatsapp-messenger-area */
+
+    .whatsapp-messenger-area .tweet-card p {
+        font-size: 16px;
+    }
+
+    .whatsapp-messenger-area .width-280 {
+        width: 260px;
+    }
+
+    /*dashboard area*/
+    .dashboard-area .tweet-card p {
+        font-size: 17px;
+    }
+
+    .dashboard-area .width-400 {
+        width: 280px !important;
+    }
+
+    .dashboard-area .cards {
+        margin-top: 0px;
+    }
+
+    /* automation area */
+    .automation-area .f-card h3 {
+        font-size: 22px;
+    }
+
+    .first-section.automation-area.bg-whatsapp.pt-50 .width-400 {
+        width: 350px;
+    }
+
+    /*tailor area*/
+
+    .tailor-area .tweet-card p {
+        font-size: 16px;
+    }
+
+    .tailor-area .width-350 {
+        width: 300px;
+    }
+
+    /*process area*/
+    .process-area .f-20 {
+        font-size: 17px !important;
+    }
+
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {
+
+    .process-area .width-350 {
+        width: 310px;
+    }
+
+}
+
+@media screen and (min-width: 1199px) {
+
+    .automation-no-2 {
+        display: none !important;
+    }
+
+}
+
+@media (max-width: 1199px) {
+    .automation-no {
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width: 999px) {
+
+
+    .whatsapp-messenger-carousel {
+        display: none !important;
+    }
+
+    .tailors-none {
+        display: none;
+    }
+
+
+}
+
+
+
+
+
+
+/* large devices 992 - 1199*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    /* common area start */
+    .first-section {
+        margin: 25px 30px !important;
+        padding: 15px 30px 60px;
+    }
+
+
+
+    /*whastaapp*/
+
+    .whatsapp-messenger-area .tweet-card {
+        margin-right: 55px;
+    }
+
+    .whatsapp-messenger-area .cards {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        position: relative;
+        left: 35px;
+    }
+
+    .whatsapp-messenger-area .width-280 {
+        width: 280px;
+    }
+
+
+    .whatsapp-messenger-area .card-area {
+        display: grid;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+
+    }
+
+    .whatsapp-messenger-area .tweet-card p {
+        font-size: 16px;
+    }
+
+    .whatsapp-messenger-area .tweet-card.mb-50 {
+        display: block;
+    }
+
+    .whatsapp-messenger-area .tweet-thumb {
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .wm-mobile {
+        text-align: center;
+    }
+
+    .wm-mobile img {
+        width: 470px;
+    }
+
+    /*header */
+    .links {
+        gap: 15px;
+    }
+
+    .header-btn {
+        gap: 20px;
+    }
+
+    .slider-area h1 {
+        font-size: 45px;
+    }
+
+    .slider-area p {
+        font-size: 23px;
+    }
+
+    .brand-area a h2 {
+        font-size: 22px;
+    }
+
+    /*brand area*/
+
+    .brand-area .w-200 {
+        width: 170px;
+    }
+
+    /*dashboard area */
+    /*.dashboard-area .cards {
+        margin: 0px 158px;
+    }
+*/
+    .dashboard-area .tweet-card {
+        margin-bottom: 40px !important;
+    }
+
+    .dashboard-area .cards {
+        position: relative;
+        left: 32%;
+    }
+
+    /*automation */
+
+    .automation-area .tweet-card {
+        margin: 0 70px 35px 157px;
+    }
+
+    .automation-no {
+        display: none;
+    }
+
+    .automation-no-2 {
+        display: block;
+    }
+
+    /*tailor area*/
+
+    /*process area*/
+
+    .process-area .f-card.f-process-card.arrow-top.width-350 {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .process-area .width-350 {
+        width: 500px;
+    }
+
+    .process-area .tweet-card.process-card .f-card.arrow-top::after {
+        top: 45%;
+    }
+
+    .process-area .tweet-card .f-card.arrow-top::after {
+        right: 47%;
+    }
+
+    .process-area .tweet-card.process-card {
+        margin-bottom: 50px;
+    }
+
+
+    /*footer*/
+    .footer-widget {
+        margin-bottom: 40px;
+    }
+
+}
+
+
+/* Medium devices 768 - 991 */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    /*header*/
+    .header-btn {
+        display: none;
+    }
+
+    .first-section {
+        margin: 46px 25px !important;
+    }
+
+    .slider-area h1 {
+        font-size: 43px;
+        line-height: 70px;
+        margin: 0;
+    }
+
+    .slider-area p {
+        font-size: 22px;
+    }
+
+    /*brand*/
+    .brand-area {
+        position: relative;
+    }
+
+    .brand-area.mb-70 {
+        padding: 35px 36px 35px 0;
+    }
+
+    .brand-area a h2 {
+        display: block;
+        text-align: center;
+        margin: auto;
+        position: absolute;
+        top: 20px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+
+    .brand-area img {
+        margin-top: 46px;
+    }
+
+
+    .brand-area.mb-70 img {
+        width: 160px;
+    }
+
+
+    /*mobile*/
+    .wm-mobile img {
+        width: 100%;
+    }
+
+    /*  #header-sticky {
+        display: none;
+    }*/
+
+    .whatsapp-c-d-n {
+        display: none !important;
+    }
+
+    .dashboard-area .wm-mobile.mobile-2 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /*automation*/
+    .automation-area .col-xl-6.col-lg-12.col-md-12 .cards {
+        position: relative;
+        left: 10%;
+    }
+
+    /*process*/
+    .first-section.process-area.bg-whatsapp.pt-50 .f-card {
+        text-align: center;
+        margin: 0 auto !important;
+    }
+
+    .process-area .tweet-card.process-card {
+        margin-bottom: 50px;
+    }
+
+    .process-area .width-350 {
+        width: 450px;
+    }
+
+    .process-area .tweet-card.process-card .f-card.arrow-top::after {
+        top: 43%;
+    }
+
+    .process-area .tweet-card .f-card.arrow-top::after {
+        right: 45%;
+    }
+
+    .process-area .tweet-card.process-card {
+        margin-bottom: 50px;
+    }
+
+    .process-area .h-btn.text-white.bg-blue.mt-40 {
+        margin-top: 0px;
+    }
+
+    .process-area .tweet-card:nth-child(3) {
+        margin-bottom: 0px;
+    }
+
+    .process-area .f-20 {
+        font-size: 22px !important;
+    }
+
+    /*subscribe */
+    .subscribe-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .subscribe-content h2 {
+        text-align: center;
+    }
+
+    .subscribe-content input.submit-btn {
+        text-align: left;
+        width: 100%;
+    }
+
+    .footer-widget {
+        margin-bottom: 70px;
+    }
+
+    .footer-area.first-section.bg-whatsapp.pt-50 .brand-area img {
+        width: 150px;
+    }
+
+
+}
+
+
+/* Small devices 576 - 767 */
+@media (max-width: 767px) {
+
+
+    #header-sticky {
+        display: none;
+    }
+
+    /*common classes */
+    .h-btn {
+        font-size: 25px;
+    }
+
+    .first-section {
+        margin: 46px 25px !important;
+    }
+
+    .section-title h2 {
+        font-size: 40px;
+    }
+
+    .section-title h1 {
+        font-size: 40px;
+        line-height: 1.3;
+    }
+
+    /*hero area*/
+    .slider-area h1 {
+        font-size: 31px;
+        line-height: 52px;
+        display: block;
+        overflow: hidden;
+    }
+
+    .slider-area p {
+        font-size: 25px;
+        line-height: 1.4;
+    }
+
+    /*brand*/
+    .brand-area {
+        position: relative;
+    }
+
+    .brand-area {
+        padding: 35px 36px 35px 0;
+    }
+
+    .brand-area a h2 {
+        display: block;
+        text-align: center;
+        margin: auto;
+        position: absolute;
+        top: 20px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .brand-area img {
+        margin-top: 46px;
+    }
+
+    .brand-area img {
+        width: 100%;
+        margin: 34px 14px 0 17px;
+        padding: 4px;
+    }
+
+    .brand-area a h2 {
+        font-size: 23px;
+    }
+
+
+    /*process area*/
+
+
+    .footer-widget {
+        margin-bottom: 50px;
+    }
+
+    .process-area .f-card.f-process-card.arrow-top.width-350 {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .process-area .h-btn.text-white.bg-blue.mt-40 {
+        margin-top: 0px;
+    }
+
+    .process-area .tweet-card.process-card .f-card.arrow-top::after {
+        top: 42%;
+
+    }
+
+    /*subscribe */
+    .subscribe-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .subs-form .submit-btn::-webkit-input-placeholder {
+        font-size: 24px;
+    }
+
+    .subs-form .submit-btn:-ms-input-placeholder {
+        font-size: 24px;
+    }
+
+    .subs-form .submit-btn::placeholder {
+        font-size: 24px;
+    }
+
+    .subscribe-content h2 {
+        text-align: center;
+        font-size: 36px;
+    }
+
+    .subscribe-content input.submit-btn {
+        text-align: left;
+        width: 100%;
+    }
+
+    input.submit-btn {
+        padding: 12px 18px 13px 22px;
+
+    }
+
+    .subscribe-content span {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+    }
+
+    /*whasapp area*/
+    .section-title .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+        top: 7px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        display: block !important;
+    }
+
+    /*responsive card*/
+    .responsive-card {
+        padding: 10px 58px;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .responsive-card-area .owl-prev i {
+        font-size: 60px;
+    }
+
+    .responsive-card-area .owl-next i {
+        font-size: 60px;
+    }
+
+    .whatsapp-messenger-area .responsive-card-area .owl-prev {
+        position: absolute;
+        top: 23px;
+        left: -8%;
+    }
+
+    .whatsapp-messenger-area .responsive-card-area.whatsapp-messenger-carousel.p-relative .owl-next {
+        position: absolute;
+        right: -8%;
+        top: 23px;
+    }
+
+    /* .responsive-card-area.whatsapp-messenger-carousel.p-relative .owl-next {
+    position: absolute;
+    right: -39px;
+} 
+    
+    
+    .responsive-card-area.whatsapp-messenger-carousel.p-relative .owl-next {
+        position: absolute;
+        right: -15px;
+    }*/
+
+    /*.responsive-card-area .owl-prev {
+        position: absolute;
+        top: 18px;
+        left: -3%;
+    }*/
+
+    .res-card h3 {
+        font-size: 22px;
+    }
+
+
+    /*whastaapp */
+    .whatsapp-c-d-n {
+        display: none !important;
+    }
+
+    /*dashboard*/
+   .dashboard-area .responsive-card-area .owl-prev {
+    position: absolute;
+    top: 26px;
+    left: -9%;
+}
+  .first-section.dashboard-area.bg-small-white .owl-next {
+    right: -40px!important;
+}
+
+    .dashboard-area .wm-mobile.mobile-2 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .dashboard-area .responsive-card {
+        margin-bottom: 65px;
+    }
+
+    /*automaiton area*/
+    .automation-area .tweet-thumb {
+        width: 150px;
+    }
+
+    .automation-area .tweet-card .f-card.arrow-left.width-400 {
+        width: 100%;
+    }
+
+    .tweet-card .f-card.arrow-left::after {
+        left: -58px;
+        border-right: 30px solid white !important;
+    }
+
+    /*wm mobile*/
+    .wm-mobile {
+        padding: 0;
+    }
+
+    .first-section.dashboard-area .wm-mobile {
+        padding: 0px;
+    }
+
+    .wm-mobile img {
+        width: 375px;
+    }
+
+    /*tailor area*/
+    .tailor-carousel .owl-prev {
+        position: absolute;
+        top: 34%;
+        left: -56px;
+    }
+
+    .tailor-carousel .owl-next {
+        position: absolute;
+        right: -56px;
+        top: 34%;
+    }
+
+    .tweet-card p {
+        line-height: 25px;
+        font-size: 17px;
+    }
+
+    .whatsapp-messenger-area .responsive-card.arrow-bottom {
+        margin-bottom: 28px;
+    }
+
+
+
+    /*whatas */
+
+}
+
+
+/* Small devices 0 - 575 */
+@media (max-width: 575px) {
+
+    .responsive-card {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+
+    .whatsapp-messenger-area .responsive-card-area {
+        padding: 20px;
+    }
+
+    .whatsapp-messenger-area .responsive-card-area .owl-prev {
+        position: absolute;
+        top: 34px;
+        left: -28px;
+    }
+
+    .whatsapp-messenger-area .responsive-card-area.whatsapp-messenger-carousel.p-relative .owl-next {
+        position: absolute;
+        right: -28px;
+        top: 34px;
+    }
+
+    .whatsapp-messenger-area .res-card h3 {
+        font-size: 17px;
+    }
+
+    .automation-area .tweet-card .f-card.arrow-left.width-400 {
+        margin-left: 10px;
+    }
+
+    .whatsapp-messenger-area .responsive-card.arrow-bottom {
+        margin-bottom: 28px;
+    }
+
+    .responsive-card-area .owl-next i {
+        font-size: 32px;
+    }
+
+    .responsive-card-area .owl-prev i {
+        font-size: 32px;
+    }
+
+    /*.whatsapp-messenger-area .responsive-card-area .owl-prev {
+        position: absolute;
+        top: 34px;
+        left: -3%;
+    }*/
+
+    /*common classes*/
+    .section-title h2 {
+        font-size: 30px;
+    }
+
+
+    .slider-area p {
+        font-size: 20px;
+    }
+
+    .h-btn {
+        font-size: 22px;
+    }
+
+    .first-section {
+        border-radius: 20px;
+        padding: 10px;
+        margin-bottom: 55px;
+        background-color: #f0f7fc;
+    }
+
+    /*brand*/
+
+    .brand-area img {
+        width: 106px;
+        margin: 34px 14px 0 3px;
+    }
+
+    .brand-area a h2 {
+        font-size: 21px;
+        top: 25px;
+    }
+
+    .brand-area {
+        padding: 35px 36px 35px 0;
+    }
+
+    /*
+    .whatsapp-messenger-area .responsive-card.arrow-bottom {
+        margin-bottom: 80px;
+    }
+
+    .whatsapp-messenger-area .responsive-card-area.whatsapp-messenger-carousel.p-relative .owl-next {
+        position: absolute;
+        right: 177px;
+        top: 140px;
+    }
+
+    .whatsapp-messenger-area .responsive-card-area .owl-prev {
+        position: absolute;
+        top: 141px;
+        left: 38%;
+    }
+
+    .whatsapp-messenger-area .responsive-card {
+        padding: 10px 25px;
+    }
+
+    .whatsapp-messenger-area .responsive-card-area .owl-next i {
+        font-size: 46px;
+    }
+
+    .whatsapp-messenger-area .responsive-card-area .owl-prev i {
+        font-size: 46px;
+    }
+*/
+
+    .wm-mobile img {
+        width: 300px;
+        height: 491px;
+    }
+
+    .section-title {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .section-title h1 {
+        font-size: 30px;
+        line-height: 1.3;
+    }
+
+    .dashboard-area .responsive-card-area.whatsapp-messenger-carousel.p-relative .owl-next {
+        position: absolute;
+        right: -26px;
+        top: 35px;
+    }
+
+    .dashboard-area .responsive-card-area .owl-prev {
+        position: absolute;
+        top: 35px;
+        left: -8%;
+    }
+
+    .responsive-card-area .owl-prev i {
+        font-size: 45px;
+    }
+
+    .responsive-card-area .owl-next i {
+        font-size: 45px;
+    }
+
+
+    .brand-area img {
+        width: 100%;
+        margin: 34px 14px 0 17px;
+        padding: 4px;
+    }
+
+    .res-card h3 {
+        font-size: 19px;
+    }
+
+    /*.responsive-card-thumb {
+        margin-right: 0;
+    }*/
+
+    .whatsapp-messenger-area {
+        margin-bottom: 50px;
+    }
+
+    .wm-mobile.mobile-2 {
+        margin-bottom: 50px;
+    }
+
+
+    /*automaiton area*/
+    .automation-area .tweet-thumb {
+        width: 100px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    /*  .automation-area .tweet-card .f-card.arrow-left.width-400 {
+        width: 100%;
+    }*/
+
+    .automation-area .tweet-card {
+        gap: 10px;
+    }
+
+    .f-card h3 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .tweet-card p {
+        line-height: 25px;
+        font-size: 15px;
+    }
+
+    .tailor-area .h-btn.text-white.bg-blue {
+        margin-bottom: 50px;
+    }
+
+    .tailor-carousel .owl-prev {
+        position: absolute;
+        top: 44%;
+        left: -22px;
+    }
+
+    .tailor-carousel .owl-next {
+        position: absolute;
+        right: -25px;
+        top: 44%;
+    }
+
+    .tailor-area .owl-prev i {
+        font-size: 45px;
+    }
+
+    .tailor-area .owl-next i {
+        font-size: 45px;
+    }
+
+
+    .responsive-tailor .tweet-thumb {
+        float: left;
+        margin-right: 15px;
+    }
+
+
+
+    .responsive-tailor .tweet-thumb {
+        float: none !important;
+        margin-right: 15px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+
+    .f-card h3 {
+        text-align: center;
+    }
+
+    .tweet-card p {
+        text-align: center;
+    }
+
+
+    .process-area .f-card.f-process-card.arrow-top.width-350 .f-20 {
+        font-size: 17px !important;
+    }
+
+    .tweet-title h3 {
+        font-size: 28px;
+    }
+
+
+    .process-area .h-btn.text-white.bg-blue {
+        margin-bottom: 50px;
+    }
+
+    .blog-content p {
+        font-size: 21px;
+
+    }
+
+    .subscribe-content h2 {
+        font-size: 30px;
+    }
+
+    .subscribe-content span {
+        font-size: 22px;
+    }
+
+
+    .subs-form .submit-btn::-webkit-input-placeholder {
+        font-size: 22px;
+    }
+
+    .subs-form .submit-btn:-ms-input-placeholder {
+        font-size: 22px;
+    }
+
+    .subs-form .submit-btn::placeholder {
+        font-size: 22px;
+    }
+
+    .footer-widget-content p {
+        font-size: 18px;
+    }
+
+    .footer-widget-title h2 {
+        font-size: 23px;
+
+    }
+
+    .whatsapp-messenger-area .responsive-card::after {
+        border-right: 30px solid white !important;
+        -webkit-transform: rotate(-88deg);
+        transform: rotate(-90deg) !important;
+        top: 120px !important;
+        right: 46%;
+    }
+
+    .automation-area .tweet-card {
+        margin-bottom: 35px;
+        display: block;
+    }
+
+    .process-area .tweet-card.process-card .f-card.arrow-top::after {
+        top: 161px;
+    }
+
+    .f-content ul li {
+        display: inline-block;
+        margin: 0 15px;
+    }
+
+    .f-content ul li a {
+        font-size: 18px;
+        line-height: 50px;
+        margin-right: 0;
+    }
+
+    .copyright-text p {
+        font-size: 18px;
+    }
+
+    .copyright-text {
+        margin-top: 5px;
+    }
+
+    .terms-content {
+        margin-bottom: 50px;
+    }
+
+    .dashboard-area .responsive-card::after {
+        top: 117px !important;
+        right: 39%;
+    }
+
+}
+
+
+
+@media (max-width: 400px) {}
