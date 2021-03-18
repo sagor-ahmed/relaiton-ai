@@ -766,14 +766,14 @@
     }
 
     .dashboard-area .responsive-card-area.whatsapp-messenger-carousel.p-relative .owl-next {
-        right: -24px;
+        right: -22px;
         top: 75px;
     }
 
-    .dashboard-area .responsive-card-area .owl-prev {
-        top: 75px;
-        left: -24px;
-    }
+   .dashboard-area .responsive-card-area .owl-prev {
+    top: 75px;
+    left: -22px;
+}
 
     /*common classes*/
     .section-title h2 {
