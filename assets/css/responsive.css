@@ -79,25 +79,20 @@
 
 }
 
-@media screen and (min-width: 1199px) {
 
+@media screen and (min-width: 1199px) {
     .automation-no-2 {
         display: none !important;
     }
-
 }
 
 @media (max-width: 1199px) {
     .automation-no {
         display: none;
     }
-
 }
 
-
 @media screen and (min-width: 999px) {
-
-
     .whatsapp-messenger-carousel {
         display: none !important;
     }
@@ -105,12 +100,7 @@
     .tailors-none {
         display: none;
     }
-
-
 }
-
-
-
 
 
 
@@ -122,8 +112,6 @@
         margin: 25px 30px !important;
         padding: 15px 30px 60px;
     }
-
-
 
     /*whastaapp*/
 
@@ -142,7 +130,6 @@
     .whatsapp-messenger-area .width-280 {
         width: 280px;
     }
-
 
     .whatsapp-messenger-area .card-area {
         display: grid;
@@ -187,8 +174,6 @@
         gap: 20px;
     }
 
-   
-
     .slider-area p {
         font-size: 23px;
     }
@@ -204,10 +189,7 @@
     }
 
     /*dashboard area */
-    /*.dashboard-area .cards {
-        margin: 0px 158px;
-    }
-*/
+
     .dashboard-area .tweet-card {
         margin-bottom: 40px !important;
     }
@@ -233,6 +215,7 @@
 
     /*tailor area*/
 
+
     /*process area*/
 
     .process-area .f-card.f-process-card.arrow-top.width-350 {
@@ -256,15 +239,14 @@
         margin-bottom: 50px;
     }
 
-
     /*footer*/
     .footer-widget {
         margin-bottom: 40px;
     }
-    .sticky {
 
-    padding: 0px 28px;
-}
+    .sticky {
+        padding: 0px 28px;
+    }
 
 }
 
@@ -310,25 +292,18 @@
         width: 100%;
     }
 
-
     .brand-area img {
         margin-top: 46px;
     }
-
 
     .brand-area img {
         width: 160px;
     }
 
-
     /*mobile*/
     .wm-mobile img {
         width: 100% !important;
     }
-
-    /*  #header-sticky {
-        display: none;
-    }*/
 
     .whatsapp-c-d-n {
         display: none !important;
@@ -405,19 +380,68 @@
         width: 150px;
     }
 
+    .res-card {
+        width: 150px;
+    }
+
+    /* .responsive-card {
+    padding: 7px 53px;
+    }
+*/
+    .automation-area .tweet-thumb {
+        width: 140px;
+    }
+
+    .first-section.automation-area .f-card {
+        width: 100%;
+    }
+
+    .md-gutter .row {
+        margin-left: -30px;
+        margin-right: -30px;
+    }
+
+    .first-section.dashboard-area.bg-small-white .owl-next {
+        right: -51px;
+    }
+
+    .res-card {
+        width: 120px;
+    }
 
 }
 
 
+
 /* Small devices 576 - 767 */
 @media (max-width: 767px) {
-    .header-btn {
-        display: none;
+    .res-card {
+        width: 120px;
     }
 
-    /*    #header-sticky {
-        display: none;
-    }*/
+    .md-gutter .row {
+        margin-left: -30px;
+        margin-right: -30px;
+    }
+
+
+    .automation-area .tweet-card {
+        gap: 15px;
+    }
+
+    .first-section.automation-area.bg-whatsapp.pt-50 .container {
+        padding-top: 0px;
+        padding-left: 0;
+    }
+
+    .tweet-card p {
+        line-height: 25px;
+        font-size: 16px;
+    }
+
+    .f-card h3 {
+        font-size: 20px;
+    }
 
     /*common classes */
     .h-btn {
@@ -438,11 +462,13 @@
     }
 
     /*hero area*/
+    .header-btn {
+        display: none;
+    }
+
     .first-section .slider-area h1 {
         font-size: 31px;
         line-height: 52px;
-        display: block;
-        overflow: hidden;
     }
 
     .slider-area p {
@@ -455,14 +481,8 @@
         position: relative;
     }
 
-    /*.brand-area {
-        padding: 35px 36px 35px 0;
-    }*/
-
     .brand-area a h2 {
-        display: block;
         text-align: center;
-        margin: auto;
         position: absolute;
         top: 20px;
         margin-bottom: 30px;
@@ -476,16 +496,14 @@
     .brand-area img {
         width: 100%;
         margin: 34px 14px 0 -2px !important;
-        padding: 4px;
+        padding: 8px;
     }
 
     .brand-area a h2 {
         font-size: 23px;
     }
 
-
     /*process area*/
-
 
     .footer-widget {
         margin-bottom: 50px;
@@ -558,15 +576,14 @@
 
     /*responsive card*/
 
-    .responsive-card {
+    /* .responsive-card {
         padding: 10px 58px;
         width: 100% !important;
         text-align: center;
         margin: 0 auto;
         -webkit-box-pack: center;
         -ms-flex-pack: center;
-        justify-content: center;
-    }
+    }*/
 
     .responsive-card-area .owl-prev i {
         font-size: 60px;
@@ -579,36 +596,18 @@
     .whatsapp-messenger-area .responsive-card-area .owl-prev {
         position: absolute;
         top: 23px;
-        left: -9%;
+        left: -40px;
     }
 
     .whatsapp-messenger-area .responsive-card-area.whatsapp-messenger-carousel.p-relative .owl-next {
         position: absolute;
-        right: -10%;
+        right: -42px;
         top: 23px;
     }
 
-    /* .responsive-card-area.whatsapp-messenger-carousel.p-relative .owl-next {
-    position: absolute;
-    right: -39px;
-} 
-    
-    
-    .responsive-card-area.whatsapp-messenger-carousel.p-relative .owl-next {
-        position: absolute;
-        right: -15px;
-    }*/
-
-    /*.responsive-card-area .owl-prev {
-        position: absolute;
-        top: 18px;
-        left: -3%;
-    }*/
-
     .res-card h3 {
-        font-size: 22px;
+        font-size: 19px;
     }
-
 
     /*whastaapp */
     .whatsapp-c-d-n {
@@ -616,15 +615,16 @@
     }
 
     /*dashboard*/
+
     .dashboard-area .responsive-card-area .owl-prev {
-        position: absolute !important;
-        top: 35px !important;
-        left: -26px !important;
+        position: absolute;
+        top: 35px;
+        left: -42px;
     }
 
     .first-section.dashboard-area.bg-small-white .owl-next {
-        right: -26px !important;
-        top: 35px !important;
+        right: -42px;
+        top: 35px;
     }
 
     .dashboard-area .wm-mobile.mobile-2 img {
@@ -677,23 +677,38 @@
     }
 
     .tweet-card p {
-        line-height: 25px;
-        font-size: 17px;
+        font-size: 16px;
     }
 
+    /*whatasapp messenger area */
     .whatsapp-messenger-area .responsive-card.arrow-bottom {
         margin-bottom: 28px;
     }
 
+    .res-2 .responsive-card-thumb {
+        margin-right: 15px;
+    }
+
+    .responsive-card .w-150 {
+        width: 150px !important;
+    }
+    
+    .responsive-card::after {
+    right: 38%;
+}
 
 
-    /*whatas */
 
 }
 
 
 /* Small devices 0 - 575 */
 @media (max-width: 575px) {
+    .md-gutter .row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
     .first-section {
         margin: 46px 15px !important;
     }
@@ -708,35 +723,6 @@
         justify-content: center;
     }
 
-
-    .whatsapp-messenger-area .responsive-card-area {
-        padding: 20px;
-    }
-
-    .whatsapp-messenger-area .responsive-card-area .owl-prev {
-        position: absolute;
-        top: 34px;
-        left: -28px;
-    }
-
-    .whatsapp-messenger-area .responsive-card-area.whatsapp-messenger-carousel.p-relative .owl-next {
-        position: absolute;
-        right: -28px;
-        top: 34px;
-    }
-
-    .whatsapp-messenger-area .res-card h3 {
-        font-size: 17px;
-    }
-
-    .automation-area .tweet-card .f-card.arrow-left.width-400 {
-        margin-left: 10px;
-    }
-
-    .whatsapp-messenger-area .responsive-card.arrow-bottom {
-        margin-bottom: 28px;
-    }
-
     .responsive-card-area .owl-next i {
         font-size: 32px;
     }
@@ -745,17 +731,52 @@
         font-size: 32px;
     }
 
-    /*.whatsapp-messenger-area .responsive-card-area .owl-prev {
+    /*whatasapp messenger area */
+
+    .whatsapp-messenger-area .responsive-card-area {
+        padding: 20px;
+    }
+
+    .whatsapp-messenger-area .responsive-card-area .owl-prev {
         position: absolute;
-        top: 34px;
-        left: -3%;
-    }*/
+        top: 75px;
+        left: -24px;
+    }
+
+    .whatsapp-messenger-area .responsive-card-area.whatsapp-messenger-carousel.p-relative .owl-next {
+        position: absolute;
+        right: -24px;
+        top: 75px;
+    }
+
+
+
+    .whatsapp-messenger-area .res-card h3 {
+        font-size: 17px;
+    }
+
+    .whatsapp-messenger-area .responsive-card.arrow-bottom {
+        margin-bottom: 28px;
+    }
+
+    .automation-area .tweet-card .f-card.arrow-left.width-400 {
+        margin-left: 10px;
+    }
+
+    .dashboard-area .responsive-card-area.whatsapp-messenger-carousel.p-relative .owl-next {
+        right: -24px;
+        top: 75px;
+    }
+
+    .dashboard-area .responsive-card-area .owl-prev {
+        top: 75px;
+        left: -24px;
+    }
 
     /*common classes*/
     .section-title h2 {
         font-size: 30px;
     }
-
 
     .slider-area p {
         font-size: 20px;
@@ -763,6 +784,10 @@
 
     .h-btn {
         font-size: 22px;
+    }
+
+    .slider-area p {
+        font-size: 17px;
     }
 
     .first-section {
@@ -785,42 +810,9 @@
         left: 5px;
     }
 
-    /*.brand-area {
-        padding: 35px 36px 35px 0;
-    }*/
     .brand-area {
         padding: 21px 10px;
     }
-
-    /*
-    .whatsapp-messenger-area .responsive-card.arrow-bottom {
-        margin-bottom: 80px;
-    }
-
-    .whatsapp-messenger-area .responsive-card-area.whatsapp-messenger-carousel.p-relative .owl-next {
-        position: absolute;
-        right: 177px;
-        top: 140px;
-    }
-
-    .whatsapp-messenger-area .responsive-card-area .owl-prev {
-        position: absolute;
-        top: 141px;
-        left: 38%;
-    }
-
-    .whatsapp-messenger-area .responsive-card {
-        padding: 10px 25px;
-    }
-
-    .whatsapp-messenger-area .responsive-card-area .owl-next i {
-        font-size: 46px;
-    }
-
-    .whatsapp-messenger-area .responsive-card-area .owl-prev i {
-        font-size: 46px;
-    }
-*/
 
     .wm-mobile img {
         width: 300px;
@@ -837,40 +829,33 @@
         line-height: 1.3;
     }
 
-    .dashboard-area .responsive-card-area.whatsapp-messenger-carousel.p-relative .owl-next {
-        position: absolute;
-        right: -26px;
-        top: 35px;
-    }
 
-    .dashboard-area .responsive-card-area .owl-prev {
-        position: absolute;
-        top: 35px;
-        left: -8%;
+
+    /*  .responsive-card-area .owl-prev i {
+        font-size: 45px;
+    }*/
+
+    .responsive-card-area .owl-next i {
+        font-size: 35px;
     }
 
     .responsive-card-area .owl-prev i {
-        font-size: 45px;
+        font-size: 35px;
     }
 
-    .responsive-card-area .owl-next i {
-        font-size: 45px;
+    .responsive-card .w-150 {
+        width: 100px;
     }
-
 
     .brand-area img {
         width: 100%;
         margin: 1px;
-        padding: 4px;
+        padding: 10px;
     }
 
     .res-card h3 {
         font-size: 19px;
     }
-
-    /*.responsive-card-thumb {
-        margin-right: 0;
-    }*/
 
     .whatsapp-messenger-area {
         margin-bottom: 50px;
@@ -880,8 +865,8 @@
         margin-bottom: 50px;
     }
 
-
     /*automaiton area*/
+
     .automation-area .tweet-thumb {
         width: 100px;
         text-align: center;
@@ -904,12 +889,12 @@
 
     .tweet-card p {
         line-height: 25px;
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .tailor-area .tweet-card p {
         line-height: 25px;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .tailor-area .h-btn.text-white.bg-blue {
@@ -936,13 +921,10 @@
         font-size: 45px;
     }
 
-
     .responsive-tailor .tweet-thumb {
         float: left;
         margin-right: 15px;
     }
-
-
 
     .responsive-tailor .tweet-thumb {
         float: none !important;
@@ -952,7 +934,6 @@
         margin-bottom: 40px;
     }
 
-
     .f-card h3 {
         text-align: center;
     }
@@ -960,7 +941,6 @@
     .tweet-card p {
         text-align: center;
     }
-
 
     .process-area .f-card.f-process-card.arrow-top.width-350 .f-20 {
         font-size: 17px !important;
@@ -970,14 +950,12 @@
         font-size: 28px;
     }
 
-
     .process-area .h-btn.text-white.bg-blue {
         margin-bottom: 50px;
     }
 
     .blog-content p {
         font-size: 21px;
-
     }
 
     .subscribe-content h2 {
@@ -987,7 +965,6 @@
     .subscribe-content span {
         font-size: 22px;
     }
-
 
     .subs-form .submit-btn::-webkit-input-placeholder {
         font-size: 22px;
@@ -1010,12 +987,13 @@
 
     }
 
+
     .whatsapp-messenger-area .responsive-card::after {
         border-right: 30px solid white !important;
         -webkit-transform: rotate(-88deg);
         transform: rotate(-90deg) !important;
-        top: 120px !important;
-        right: 46%;
+        top: 184px !important;
+        right: 37%;
     }
 
     .automation-area .tweet-card {
@@ -1050,36 +1028,75 @@
         margin-bottom: 50px;
     }
 
-    .dashboard-area .responsive-card::after {
-        top: 117px !important;
-        right: 39%;
-    }
+   .dashboard-area .responsive-card::after {
+    top: 184px!important;
+    right: 39%;
+}
 
     .sticky .navbar-menu {
         margin-left: -68px;
     }
 
     .sticky .navbar-menu {
-	margin-left: -93px;
-}
+        margin-left: -93px;
+    }
+
     .links a {
         font-size: 22px;
     }
-    
-    .logo{
+
+    .logo {
         height: 35px;
     }
-    
+
     .menu-trigger {
-	top: 23px;
-	right: 15px;
-	font-size: 23px;
-}.sticky .menu-trigger {
-	top: 23px;
-	right: 29px;
+        top: 23px;
+        right: 15px;
+        font-size: 23px;
+    }
+
+    .sticky .menu-trigger {
+        top: 23px;
+        right: 29px;
+    }
+
+    .first-section.automation-area.bg-whatsapp.pt-50 .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .responsive-card-thumb {
+        margin-right: 15px;
+    }
+
+    /**/
+
+    .responsive-card {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        padding: 23px 10px;
+    }
+
+    .responsive-card-thumb {
+        margin: 0 auto;
+    }
+
+    .res-card {
+        margin-top: 20px;
+        width: auto;
+    }
+
+
+
 }
+
+
+@media only screen and (min-width: 575px) and (max-width: 635px) {
+
+    .responsive-tailor .tweet-thumb {
+        float: left;
+        margin-right: 23px;
+    }
+
 }
-
-
-
-@media (max-width: 400px) {}
