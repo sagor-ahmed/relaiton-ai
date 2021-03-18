@@ -85,13 +85,12 @@
         loop:true,
         margin:20,
         fade: true,
-        autoplay: false,
+        autoplay: true ,
 		autoplaySpeed: 1000,
     	items:1,
     	navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
         nav:true,
     	dots:false,
-        
         responsive:{
             0:{
                 items:1
@@ -115,7 +114,6 @@
         autoplay: true,
 		autoplaySpeed: 1000,
     	items:1,
-
          nav:true,
     	navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
     	dots:false,
