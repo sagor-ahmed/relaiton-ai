@@ -1,3 +1,9 @@
+
+
+
+
+
+
 /***************************************************
 
 ==================== JS INDEX ======================
@@ -7,7 +13,9 @@
     01. Sticky Js	
     02. Mobile Menu  Js
     03. Data-Background Js
-    04. Scroll To Top Js
+    04. Owl carousel js
+    05. Owl carousel js
+    06. Scroll To Top Js
 
 
 ****************************************************/
@@ -31,19 +39,36 @@
     });
 
 
-    ////////////////////////////////////////////////////
+     ////////////////////////////////////////////////////
 
-    // 02. Mobile Menu  Js
+    // 02.RESPONSIVE MENU  Js
 
- /*   const navToggle = document.querySelector(".nav-toggle");
-    const links = document.querySelector(".links");
+   
 
-    navToggle.addEventListener("click", function () {
+    var body = $('body');
+    var menuTrigger = $('.js-menu-trigger');
+    var mainOverlay = $('.js-main-overlay');
 
-        links.classList.toggle("show-links");
+    menuTrigger.on('click', function () {
+        body.addClass('menu-is-active');
     });
 
-*/
+    mainOverlay.on('click', function () {
+        body.removeClass('menu-is-active');
+    });
+
+
+    $('.links li a').on('click', function () {
+        $('body').removeClass("menu-is-active");
+    });
+
+    
+    $(".close-btn").on("click", function () {
+        $('body').removeClass("menu-is-active");
+    });
+
+
+
     ////////////////////////////////////////////////////
 
     // 03. Data-Background Js
@@ -55,6 +80,11 @@
     });
 
  
+    
+       ////////////////////////////////////////////////////
+
+    // 03. owlCarousel Js
+
     // owlCarousel
     $('.carousel-item').owlCarousel({
         loop:true,
@@ -78,7 +108,9 @@
             }
         }
     })
-
+    
+    
+ // 04. owlCarousel Js
     // owlCarousel
     $('.tailor-carousel').owlCarousel({
         loop:true,
@@ -107,7 +139,7 @@
 
     ////////////////////////////////////////////////////
 
-    // 04. Scroll To Top Js
+    // 05. Scroll To Top Js
 
     function smoothSctollTop() {
 
@@ -169,17 +201,6 @@
 
     });
 
-
-
-
-
-
-
-
-/*
-// WOW active
-new WOW().init();
-*/
 
 
 })(jQuery);

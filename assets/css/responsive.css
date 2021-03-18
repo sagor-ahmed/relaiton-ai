@@ -175,7 +175,7 @@
     }
 
     .wm-mobile img {
-        width: 470px;
+        width: 475px;
     }
 
     /*header */
@@ -187,9 +187,7 @@
         gap: 20px;
     }
 
-    .slider-area h1 {
-        font-size: 45px;
-    }
+   
 
     .slider-area p {
         font-size: 23px;
@@ -314,14 +312,14 @@
     }
 
 
-    .brand-area.mb-70 img {
+    .brand-area img {
         width: 160px;
     }
 
 
     /*mobile*/
     .wm-mobile img {
-        width: 100%;
+        width: 100% !important;
     }
 
     /*  #header-sticky {
@@ -333,8 +331,7 @@
     }
 
     .dashboard-area .wm-mobile.mobile-2 img {
-        width: 100%;
-        height: 100%;
+        height: 100% !important;
     }
 
     /*automation*/
@@ -410,11 +407,13 @@
 
 /* Small devices 576 - 767 */
 @media (max-width: 767px) {
-
-
-    #header-sticky {
+    .header-btn {
         display: none;
     }
+
+    /*    #header-sticky {
+        display: none;
+    }*/
 
     /*common classes */
     .h-btn {
@@ -435,7 +434,7 @@
     }
 
     /*hero area*/
-    .slider-area h1 {
+    .first-section .slider-area h1 {
         font-size: 31px;
         line-height: 52px;
         display: block;
@@ -452,9 +451,9 @@
         position: relative;
     }
 
-    .brand-area {
+    /*.brand-area {
         padding: 35px 36px 35px 0;
-    }
+    }*/
 
     .brand-area a h2 {
         display: block;
@@ -472,7 +471,7 @@
 
     .brand-area img {
         width: 100%;
-        margin: 34px 14px 0 17px;
+        margin: 34px 14px 0 -2px !important;
         padding: 4px;
     }
 
@@ -498,8 +497,7 @@
     }
 
     .process-area .tweet-card.process-card .f-card.arrow-top::after {
-        top: 42%;
-
+        top: 45%;
     }
 
     /*subscribe */
@@ -555,9 +553,10 @@
     }
 
     /*responsive card*/
+
     .responsive-card {
         padding: 10px 58px;
-        width: 100%;
+        width: 100% !important;
         text-align: center;
         margin: 0 auto;
         -webkit-box-pack: center;
@@ -576,12 +575,12 @@
     .whatsapp-messenger-area .responsive-card-area .owl-prev {
         position: absolute;
         top: 23px;
-        left: -8%;
+        left: -9%;
     }
 
     .whatsapp-messenger-area .responsive-card-area.whatsapp-messenger-carousel.p-relative .owl-next {
         position: absolute;
-        right: -8%;
+        right: -10%;
         top: 23px;
     }
 
@@ -613,14 +612,16 @@
     }
 
     /*dashboard*/
-   .dashboard-area .responsive-card-area .owl-prev {
-    position: absolute;
-    top: 26px;
-    left: -9%;
-}
-  .first-section.dashboard-area.bg-small-white .owl-next {
-    right: -40px!important;
-}
+    .dashboard-area .responsive-card-area .owl-prev {
+        position: absolute !important;
+        top: 35px !important;
+        left: -26px !important;
+    }
+
+    .first-section.dashboard-area.bg-small-white .owl-next {
+        right: -26px !important;
+        top: 35px !important;
+    }
 
     .dashboard-area .wm-mobile.mobile-2 img {
         width: 100%;
@@ -655,7 +656,7 @@
     }
 
     .wm-mobile img {
-        width: 375px;
+        width: 100%;
     }
 
     /*tailor area*/
@@ -689,6 +690,9 @@
 
 /* Small devices 0 - 575 */
 @media (max-width: 575px) {
+    .first-section {
+        margin: 46px 15px !important;
+    }
 
     .responsive-card {
         padding: 10px;
@@ -768,16 +772,20 @@
 
     .brand-area img {
         width: 106px;
-        margin: 34px 14px 0 3px;
+        margin: ;
     }
 
     .brand-area a h2 {
         font-size: 21px;
         top: 25px;
+        left: 5px;
     }
 
-    .brand-area {
+    /*.brand-area {
         padding: 35px 36px 35px 0;
+    }*/
+    .brand-area {
+        padding: 21px 10px;
     }
 
     /*
@@ -848,7 +856,7 @@
 
     .brand-area img {
         width: 100%;
-        margin: 34px 14px 0 17px;
+        margin: 1px;
         padding: 4px;
     }
 
@@ -893,6 +901,11 @@
     .tweet-card p {
         line-height: 25px;
         font-size: 15px;
+    }
+
+    .tailor-area .tweet-card p {
+        line-height: 25px;
+        font-size: 18px;
     }
 
     .tailor-area .h-btn.text-white.bg-blue {
@@ -1038,6 +1051,29 @@
         right: 39%;
     }
 
+    .sticky .navbar-menu {
+        margin-left: -68px;
+    }
+
+    .sticky .navbar-menu {
+	margin-left: -93px;
+}
+    .links a {
+        font-size: 22px;
+    }
+    
+    .logo{
+        height: 35px;
+    }
+    
+    .menu-trigger {
+	top: 23px;
+	right: 15px;
+	font-size: 23px;
+}.sticky .menu-trigger {
+	top: 23px;
+	right: 29px;
+}
 }
 
 
