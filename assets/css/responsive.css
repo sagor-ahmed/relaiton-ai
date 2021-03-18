@@ -184,9 +184,10 @@
 
     /*brand area*/
 
-    .brand-area .w-200 {
+    .brand-area.w-200 {
         width: 170px;
     }
+
 
     /*dashboard area */
 
@@ -297,7 +298,9 @@
     }
 
     .brand-area img {
-        width: 160px;
+        width: 100%;
+        margin: 34px 14px 0 18px;
+        padding: 15px;
     }
 
     /*mobile*/
@@ -551,8 +554,7 @@
     }
 
     input.submit-btn {
-        padding: 12px 18px 13px 22px;
-
+        padding: 18px 18px 13px 22px;
     }
 
     .subscribe-content span {
@@ -692,10 +694,10 @@
     .responsive-card .w-150 {
         width: 150px !important;
     }
-    
+
     .responsive-card::after {
-    right: 38%;
-}
+        right: 38%;
+    }
 
 
 
@@ -1028,10 +1030,10 @@
         margin-bottom: 50px;
     }
 
-   .dashboard-area .responsive-card::after {
-    top: 184px!important;
-    right: 39%;
-}
+    .dashboard-area .responsive-card::after {
+        top: 184px !important;
+        right: 39%;
+    }
 
     .sticky .navbar-menu {
         margin-left: -68px;
