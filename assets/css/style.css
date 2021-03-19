@@ -1064,11 +1064,10 @@ Navbar
 	filter: drop-shadow(0px 40px 15px rgba(113, 105, 119, 0.3));
 
 }
-.dashboard-area  .tweet-thumb {
+.dashboard-area .tweet-thumb {
 	-webkit-filter: drop-shadow(0px 40px 15px rgba(150, 122, 173, 0.8));
-	filter: drop-shadow(0px 40px 15px rgba(150, 122, 173, 0.8));
+	filter: drop-shadow(0px 40px 15px rgba(150, 122, 173, 0.6));
 }
-
 .automation-area .tweet-thumb {
 	-webkit-filter: drop-shadow(0px 40px 15px rgba(21, 4, 1, 0.3));
 	filter: drop-shadow(0px 40px 15px rgba(21, 4, 1, 0.3));
