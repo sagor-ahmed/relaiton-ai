@@ -346,6 +346,9 @@ p {
 .width-300{
     width: 300px;
 }
+.width-340{
+    width: 340px;
+}
 .width-370 {
     width: 370px;
 }
@@ -1120,8 +1123,8 @@ Navbar
 }
 
 .tweet-card .f-card.arrow-left::after {
-    left: -60px;
-    border-right: 30px solid white !important;
+	left: -58px;
+	border-right: 30px solid white !important;
 }
 
 .tweet-card .f-card.arrow-left::after,
@@ -1204,6 +1207,13 @@ Navbar
 .box-10 {
     padding-left: 10px !important;
     padding-right: 10px !important;
+}
+.tailor-area .tweet-card p {
+	font-size: 17px;
+}
+
+.tailor-area .f-card.arrow-right::after {
+	right: -59px;
 }
 
 /*===================================================================================*/
