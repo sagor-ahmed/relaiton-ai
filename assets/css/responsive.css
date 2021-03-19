@@ -5,10 +5,24 @@
 /* laptop devices 1200 - 1600 */
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
 
-    /* common area start */
-    .cards .tweet-card .f-card {
-        padding: 16px;
+
+    .dashboard-area .wm-mobile.mobile-2 img {
+        width: 547px;
+        height: 100%;
     }
+
+    .dashboard-area .width-350 {
+        width: 290px;
+    }
+
+    .dashboard-area .cards {
+        margin-top: -27px;
+    }
+
+    /* common area start */
+    /* .cards .tweet-card .f-card {
+        padding: 16px;
+    }*/
 
     .tweet-card .f-card.arrow-right::after {
         right: -58px;
@@ -23,12 +37,16 @@
 
     /* whatsapp-messenger-area */
 
-    .whatsapp-messenger-area .tweet-card p {
+    /*    .whatsapp-messenger-area .tweet-card p {
         font-size: 16px;
-    }
+    }*/
 
     .whatsapp-messenger-area .width-280 {
         width: 260px;
+    }
+
+    .whatsapp-messenger-area .width-300 {
+        width: 268px;
     }
 
     /*dashboard area*/
@@ -119,6 +137,11 @@
         margin-right: 55px;
     }
 
+    .whatsapp-messenger-area .width-300 {
+        width: 250px;
+    }
+
+
     .whatsapp-messenger-area .cards {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -142,9 +165,9 @@
 
     }
 
-    .whatsapp-messenger-area .tweet-card p {
+    /*   .whatsapp-messenger-area .tweet-card p {
         font-size: 16px;
-    }
+    }*/
 
     .whatsapp-messenger-area .tweet-card.mb-50 {
         display: block;
@@ -229,10 +252,7 @@
     }
 
     .process-area .tweet-card.process-card .f-card.arrow-top::after {
-        top: 45%;
-    }
-
-    .process-area .tweet-card .f-card.arrow-top::after {
+        top: 52%;
         right: 47%;
     }
 
@@ -305,7 +325,8 @@
 
     /*mobile*/
     .wm-mobile img {
-        width: 100% !important;
+        width: 100%;
+        height: auto;
     }
 
     .whatsapp-c-d-n {
@@ -313,7 +334,8 @@
     }
 
     .dashboard-area .wm-mobile.mobile-2 img {
-        height: 100% !important;
+        width: 100%;
+        height: 100%;
     }
 
     /*automation*/
@@ -337,7 +359,7 @@
     }
 
     .process-area .tweet-card.process-card .f-card.arrow-top::after {
-        top: 43%;
+        top: 49%;
     }
 
     .process-area .tweet-card .f-card.arrow-top::after {
@@ -363,16 +385,14 @@
     /*subscribe */
     .subscribe-content {
         width: 100%;
-        text-align: center;
     }
 
-    .subscribe-content h2 {
-        text-align: center;
-    }
+
 
     .subscribe-content input.submit-btn {
         text-align: left;
         width: 100%;
+        padding: 16px 20px 17px 18px;
     }
 
     .footer-widget {
@@ -395,9 +415,9 @@
         width: 140px;
     }
 
-    .first-section.automation-area .f-card {
+    /* .first-section.automation-area .f-card {
         width: 100%;
-    }
+    }*/
 
     .md-gutter .row {
         margin-left: -30px;
@@ -412,12 +432,51 @@
         width: 120px;
     }
 
+    .responsive-card-thumb {
+        height: 100px;
+        width: 100px;
+    }
+
+    .responsive-card::after {
+        top: 111px !important;
+        right: 37%;
+    }
+
+    /*tailor*/
+    .first-section.tailor-area.bg-small-white.pt-50 .tweet-thumb {
+        width: 100px;
+        height: 100px;
+    }
+
+    .tailor-area .f-card h3 {
+        font-size: 23px;
+    }
+
+    .tailor-area .tweet-card p {
+        font-size: 20px;
+    }
+
+    .section-title h2 {
+        display: none;
+    }
+
+    .w-m-tab {
+        display: block;
+    }
+
+
+
 }
 
 
 
 /* Small devices 576 - 767 */
 @media (max-width: 767px) {
+    .responsive-card-thumb {
+        height: 100px;
+        width: 100px;
+    }
+
     .res-card {
         width: 120px;
     }
@@ -446,13 +505,18 @@
         font-size: 20px;
     }
 
+
+    .w-m-tab {
+        display: block;
+    }
+
     /*common classes */
     .h-btn {
         font-size: 25px;
     }
 
     .first-section {
-        margin: 46px 25px !important;
+        margin: 15px 15px !important;
     }
 
     .section-title h2 {
@@ -522,13 +586,12 @@
     }
 
     .process-area .tweet-card.process-card .f-card.arrow-top::after {
-        top: 45%;
+        top: 52%;
     }
 
     /*subscribe */
     .subscribe-content {
         width: 100%;
-        text-align: center;
     }
 
     .subs-form .submit-btn::-webkit-input-placeholder {
@@ -544,7 +607,6 @@
     }
 
     .subscribe-content h2 {
-        text-align: center;
         font-size: 36px;
     }
 
@@ -578,14 +640,6 @@
 
     /*responsive card*/
 
-    /* .responsive-card {
-        padding: 10px 58px;
-        width: 100% !important;
-        text-align: center;
-        margin: 0 auto;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-    }*/
 
     .responsive-card-area .owl-prev i {
         font-size: 60px;
@@ -607,10 +661,9 @@
         top: 23px;
     }
 
-    .res-card h3 {
-        font-size: 19px;
-    }
-
+   .res-card h3 {
+	font-size: 25px;
+}
     /*whastaapp */
     .whatsapp-c-d-n {
         display: none !important;
@@ -683,11 +736,11 @@
     }
 
     /*whatasapp messenger area */
-    .whatsapp-messenger-area .responsive-card.arrow-bottom {
+    /* .whatsapp-messenger-area .responsive-card.arrow-bottom {
         margin-bottom: 28px;
-    }
+    }*/
 
-   /* .res-2 .responsive-card-thumb {
+    /* .res-2 .responsive-card-thumb {
         margin-right: 15px;
     }*/
 
@@ -697,23 +750,78 @@
 
     .responsive-card::after {
         right: 38%;
+        top: 105px;
+    }
+
+    .automation-area .tweet-thumb {
+        width: 150px !important;
+    }
+
+    .automation-area .tweet-card .f-card.arrow-left.width-350 {
+        width: 100%;
+    }
+
+    .section-title h2 {
+        display: none;
     }
 
 
+    #myTab .nav-item a {
+        font-size: 30px;
+    }
 
 }
 
 
 /* Small devices 0 - 575 */
 @media (max-width: 575px) {
+
+    .section-title h2 {
+        display: none;
+    }
+
+    #myTab {
+        padding: 15px 15px 15px 20px;
+    }
+
+    #myTab li {
+        margin: 0 auto;
+        margin-right: 10px;
+    }
+
+    .w-m-tab {
+        display: block;
+    }
+
+    #myTab .nav-item a {
+        font-size: 25px;
+    }
+
+    .responsive-card-thumb {
+        height: 80px;
+        width: 80px;
+    }
+
+    .automation-area .tweet-thumb {
+        width: 80px !important;
+        margin-top: 30px !important;
+        margin-left: 5px;
+        height: 80px !important;
+    }
+
+    .f-card.arrow-left.width-350 {
+        width: 260px !important;
+        margin-left: 20px;
+    }
+
     .md-gutter .row {
         margin-left: -15px;
         margin-right: -15px;
     }
 
-    .first-section {
-        margin: 46px 15px !important;
-    }
+   .first-section {
+	margin: 14px 15px !important;
+}
 
     .responsive-card {
         padding: 10px;
@@ -741,23 +849,23 @@
 
     .whatsapp-messenger-area .responsive-card-area .owl-prev {
         position: absolute;
-        top: 75px;
-        left: -24px;
+        top: 37px;
+        left: 10px;
     }
 
     .whatsapp-messenger-area .responsive-card-area.whatsapp-messenger-carousel.p-relative .owl-next {
         position: absolute;
-        right: -24px;
-        top: 75px;
+        right: 10px;
+        top: 37px;
     }
 
 
 
-    .whatsapp-messenger-area .res-card h3 {
-        font-size: 17px;
-    }
+  .whatsapp-messenger-area .res-card h3 {
+	font-size: 21px;
+}
 
-    .whatsapp-messenger-area .responsive-card.arrow-bottom {
+    .whatsapp-messenger-area .responsive-card {
         margin-bottom: 28px;
     }
 
@@ -765,15 +873,23 @@
         margin-left: 10px;
     }
 
-    .dashboard-area .responsive-card-area.whatsapp-messenger-carousel.p-relative .owl-next {
-        right: -22px;
-        top: 75px;
+    .automation-area .f-card h3 {
+        text-align: left;
     }
 
-   .dashboard-area .responsive-card-area .owl-prev {
-    top: 75px;
-    left: -22px;
-}
+    .automation-area .tweet-card p {
+        text-align: left;
+    }
+
+    .dashboard-area .responsive-card-area .owl-prev {
+        top: 37px;
+        left: 12px;
+    }
+
+    .dashboard-area .responsive-card-area.whatsapp-messenger-carousel.p-relative .owl-next {
+        right: 12px;
+        top: 37px;
+    }
 
     /*common classes*/
     .section-title h2 {
@@ -876,51 +992,49 @@
         margin-bottom: 30px;
     }
 
-    /*  .automation-area .tweet-card .f-card.arrow-left.width-400 {
-        width: 100%;
-    }*/
 
     .automation-area .tweet-card {
         gap: 10px;
     }
 
-    .f-card h3 {
-        font-size: 18px;
-        line-height: 25px;
-    }
+ .f-card h3 {
+	font-size: 18px;
+	line-height: 25px;
+}
 
     .tweet-card p {
         line-height: 25px;
         font-size: 16px;
     }
 
-    .tailor-area .tweet-card p {
-        line-height: 25px;
-        font-size: 16px;
-    }
-
+   .tailor-area .tweet-card p {
+	font-size: 15px;
+}
     .tailor-area .h-btn.text-white.bg-blue {
         margin-bottom: 50px;
     }
 
     .tailor-carousel .owl-prev {
-        position: absolute;
-        top: 44%;
-        left: -22px;
-    }
+	top: 40%;
+	left: 5px;
+}
 
     .tailor-carousel .owl-next {
-        position: absolute;
-        right: -25px;
-        top: 44%;
+        right: 5px;
+        top: 39%!important;
     }
 
-    .tailor-area .owl-prev i {
-        font-size: 45px;
-    }
+   .tailor-area .owl-prev i {
+	font-size: 55px;
+}
 
     .tailor-area .owl-next i {
-        font-size: 45px;
+        font-size: 55px;
+    }
+
+    .first-section.tailor-area.bg-small-white.pt-50 .tweet-thumb {
+        width: 100px;
+        height: 100px;
     }
 
     .responsive-tailor .tweet-thumb {
@@ -929,20 +1043,12 @@
     }
 
     .responsive-tailor .tweet-thumb {
-        float: none !important;
         margin-right: 15px;
         text-align: center;
         margin: 0 auto;
         margin-bottom: 40px;
     }
 
-    .f-card h3 {
-        text-align: center;
-    }
-
-    .tweet-card p {
-        text-align: center;
-    }
 
     .process-area .f-card.f-process-card.arrow-top.width-350 .f-20 {
         font-size: 17px !important;
@@ -961,7 +1067,7 @@
     }
 
     .subscribe-content h2 {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .subscribe-content span {
@@ -991,20 +1097,17 @@
 
 
     .whatsapp-messenger-area .responsive-card::after {
-        border-right: 30px solid white !important;
-        -webkit-transform: rotate(-88deg);
-        transform: rotate(-90deg) !important;
-        top: 184px !important;
-        right: 37%;
+        top: 100px !important;
+        right: 38%;
     }
 
     .automation-area .tweet-card {
         margin-bottom: 35px;
-        display: block;
+        /* display: block;*/
     }
 
     .process-area .tweet-card.process-card .f-card.arrow-top::after {
-        top: 161px;
+        top: 206px;
     }
 
     .f-content ul li {
@@ -1074,31 +1177,131 @@
     /**/
 
     .responsive-card {
-        display: block;
+        /* display: block; */
         text-align: center;
         margin: 0 auto;
-        padding: 23px 10px;
+        padding: 12px 10px;
+        width: 300px;
     }
 
-    .responsive-card-thumb {
+    /*   .responsive-card-thumb {
         margin: 0 auto;
-    }
+    }*/
 
     .res-card {
-        margin-top: 20px;
-        width: auto;
+        width: 120px;
     }
 
+    .first-section.automation-area .tweet-thumb img {
+        width: 40px;
+    }
 
-
+    .tweet-card .f-card.arrow-left::after {
+        left: -48px;
+    }
+    .tweet-card.responsive-tailor {
+	margin: 0 50px;
+	margin-bottom: 18px!important;
+}
+    
+ .first-section.tailor-area.bg-small-white.pt-50 .tweet-thumb {
+	width: 75px;
+	height: 75px;
+	margin-right: 15px;
+}
+    .cards .tweet-card .f-card {
+	padding: 15px 12px;
+}
+    
 }
 
 
-@media only screen and (min-width: 575px) and (max-width: 635px) {
+@media only screen and (min-width: 0px) and (max-width: 445px) {
 
-    .responsive-tailor .tweet-thumb {
-        float: left;
-        margin-right: 23px;
+    .whatsapp-messenger-area .responsive-card-area .owl-prev {
+        top: 37px;
+        left: -21px;
     }
 
+    .whatsapp-messenger-area .responsive-card-area.whatsapp-messenger-carousel.p-relative .owl-next {
+        position: absolute;
+        right: -21px;
+        top: 37px;
+    }
+
+    .dashboard-area .responsive-card-area .owl-prev {
+        top: 37px;
+        left: -20px;
+    }
+
+    .dashboard-area .responsive-card-area.whatsapp-messenger-carousel.p-relative .owl-next {
+        right: -20px;
+        top: 37px;
+    }
+
+    .responsive-card-area .owl-prev i {
+        font-size: 30px;
+    }
+
+    .f-card.arrow-left.width-350 {
+        width: 250px !important;
+    }
+
+    .responsive-card-area .owl-next i {
+        font-size: 30px;
+    }
+
+    .responsive-card {
+        /* display: block; */
+        text-align: center;
+        margin: 0 auto;
+        padding: 12px 10px;
+        width: 100%;
+    }
+
+    .automation-area .tweet-card {
+        margin-bottom: 35px;
+        display: block;
+    }
+
+    .cards .tweet-card .f-card {
+        margin: 0 auto;
+    }
+
+    .links {
+        max-width: 265px;
+    }
+
+  #myTab li {
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+ .tweet-card.responsive-tailor {
+	margin: 0 18px;
+	margin-bottom: 18px !important;
+}   
+
+    .first-section.tailor-area.bg-small-white.pt-50 .tweet-thumb {
+	width: 75px;
+	height: 75px;
+	margin-right: 15px;
+	float: none !important;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 24px !important;
+}
+    
+    .tweet-card.responsive-tailor {
+	display: block;
+	text-align: center;
+}
+    .tailor-carousel .owl-prev {
+	top: 43%;
+	left: -17px;
+}.tailor-carousel .owl-next {
+	right: -17px;
+	top: 43% !important;
+}
 }
