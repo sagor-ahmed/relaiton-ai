@@ -299,9 +299,10 @@
         position: relative;
     }
 
-  .brand-area {
-	padding: 35px 36px 23px 0;
-}
+    .brand-area {
+        padding: 35px 36px 23px 0;
+    }
+
     .brand-area a h2 {
         display: block;
         text-align: center;
@@ -459,10 +460,11 @@
     .w-m-tab {
         display: block;
     }
-.wm-mobile {
-	padding: 0!important;
-	padding-top: 20px!important;
-}
+
+    .wm-mobile {
+        padding: 0 !important;
+        padding-top: 20px !important;
+    }
 
 
 }
@@ -997,19 +999,17 @@
         gap: 10px;
     }
 
+
     .f-card h3 {
-        font-size: 18px;
+        font-size: 20px;
         line-height: 25px;
+        text-align: center;
     }
 
-    .tweet-card p {
-        line-height: 25px;
-        font-size: 16px;
-    }
-
-    .tailor-area .tweet-card p {
-        font-size: 15px;
-    }
+   .tailor-area .tweet-card p {
+	font-size: 17px;
+	text-align: center;
+}
 
     .tailor-area .h-btn.text-white.bg-blue {
         margin-bottom: 50px;
@@ -1039,21 +1039,17 @@
     }
 
     .responsive-tailor .tweet-thumb {
-        float: left;
-        margin-right: 15px;
-    }
-
-    .responsive-tailor .tweet-thumb {
+        float: none;
         margin-right: 15px;
         text-align: center;
-        margin: 0 auto;
-        margin-bottom: 40px;
+        margin: 0 auto !important;
+        margin-bottom: 30px !important;
+        /*float: left;*/
     }
 
-
-   .process-area .f-card.f-process-card.arrow-top.width-350 .f-20 {
-	font-size: 21px !important;
-}
+    .process-area .f-card.f-process-card.arrow-top.width-350 .f-20 {
+        font-size: 21px !important;
+    }
 
     .tweet-title h3 {
         font-size: 28px;
@@ -1067,13 +1063,14 @@
         font-size: 21px;
     }
 
-   .subscribe-content h2 {
-	font-size: 32px;
-}
+    .subscribe-content h2 {
+        font-size: 32px;
+    }
 
- .subscribe-content span {
-	font-size: 21px;
-}
+    .subscribe-content span {
+        font-size: 21px;
+    }
+
     .subs-form .submit-btn::-webkit-input-placeholder {
         font-size: 22px;
     }

@@ -111,8 +111,8 @@
         loop:true,
         margin:50,
         fade: true,
-        autoplay: true,
-		autoplaySpeed: 1000,
+  
+		autoplaySpeed: 800,
     	items:1,
          nav:true,
     	navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
