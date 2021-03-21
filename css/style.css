@@ -498,20 +498,21 @@ p {
 /*button*/
 
 .h-btn {
-	font-size: 26px;
-	border-radius: 10px;
-	padding: 4px 15px 4px 15px;
-	border: 2px solid #0d6aaf;
-	display: inline-block;
-	color: #000;
-	position: relative;
-	overflow: hidden;
-	white-space: nowrap;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	-webkit-transition: all .3s;
-	transition: all .3s;
+    font-size: 26px;
+    border-radius: 10px;
+    padding: 4px 15px 4px 15px;
+    border: 2px solid #0d6aaf;
+    display: inline-block;
+    color: #000;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
 }
+
 .l-btn:hover {
     color: #fff;
     background: #0d6aaf;
@@ -733,7 +734,7 @@ Navbar
         bottom: 0;
         left: 0;
         width: 100%;
-        background: #f0f7fc;
+        background: #000;
         max-width: 300px;
         z-index: 1000;
         -webkit-transform: translate3d(-100%, 0, 0);
@@ -743,13 +744,18 @@ Navbar
         display: block;
     }
 
-   .links li {
-	display: block;
-	margin-top: 17px;
-	padding: 0;
-	padding-bottom: 5px;
-	border-bottom: 1px solid #0d6aff;
-}
+    .links li {
+        display: block;
+        margin-top: 17px;
+        padding: 0;
+        padding-bottom: 5px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.30);
+    }
+
+    .links li a {
+        color: #fff;
+    }
+
     .links li a:hover {
         color: #0d6aaf;
     }
@@ -1027,13 +1033,16 @@ Navbar
     transform: translateX(26px);
 }
 
+
+
+
 .section-title h2 {
     font-size: 47px;
     font-family: "Roboto", sans-serif;
 }
 
 .wm-mobile img {
-    height: 530px;
+    height: 600px;
 }
 
 .card-area {
@@ -1086,8 +1095,8 @@ Navbar
     justify-content: center;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
-    -webkit-filter: drop-shadow(0px 40px 15px rgba(147, 65, 212, 0.4));
-    filter: drop-shadow(0px 40px 15px rgba(147, 65, 212, 0.4));
+  /*  -webkit-filter: drop-shadow(0px 40px 15px rgba(147, 65, 212, 0.4));
+    filter: drop-shadow(0px 40px 15px rgba(147, 65, 212, 0.4));*/
 }
 
 .whatsapp-messenger-area .tweet-thumb {
@@ -1102,8 +1111,9 @@ Navbar
 }
 
 .automation-area .tweet-thumb {
-    -webkit-filter: drop-shadow(0px 40px 15px rgba(21, 4, 1, 0.3));
-    filter: drop-shadow(0px 40px 15px rgba(21, 4, 1, 0.2));
+  /*  -webkit-filter: drop-shadow(0px 40px 15px rgba(21, 4, 1, 0.3));
+    filter: drop-shadow(0px 40px 15px rgba(21, 4, 1, 0.2));*/
+	box-shadow: 5px 5px 20px rgba(23, 20, 20, 0.1)!important;
 }
 
 .process-area .tweet-thumb {
@@ -1369,17 +1379,17 @@ Navbar
 }
 
 input.submit-btn {
-    outline: none;
-    padding: 21px 18px 17px 18px;
-    width: 50%;
-    border-radius: 15px;
-    background-color: #f1f1f1;
-    display: block;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    margin-bottom: 0px !important;
-    border: 2px solid #f1f1f1;
-    display: block;
+	outline: none;
+	padding: 18px 18px 18px 18px;
+	width: 50%;
+	border-radius: 15px;
+	background-color: #f1f1f1;
+	display: block;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	margin-bottom: 0px !important;
+	border: 2px solid #f1f1f1;
+	display: block;
 }
 
 input.submit-btn:focus {
@@ -1481,8 +1491,10 @@ input.submit-btn:focus {
 }
 
 .social-effect a img {
-    -webkit-transition: .3s;
-    transition: .3s;
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: -webkit-transform 0.2s;
+    transition: transform 0.2s;
+    transition: transform 0.2s, -webkit-transform 0.2s;
 }
 
 .social-effect a img:hover {

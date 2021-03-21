@@ -1,0 +1,575 @@
+/*** 
+====================================================================
+	 Fonts
+====================================================================
+
+***/
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@300;400;500;700&display=swap');
+
+/*
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Open sans', sans-serif;
+	font-family: 'Arimo', sans-serif;
+*/
+
+/*** 
+
+/*-----------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
+    CSS INDEX
+    ===================
+
+    01. Theme default CSS	
+    10. Footer CSS	
+   
+-----------------------------------------------------------------------------------*/
+
+/*----------------------------------------*/
+/*  01. Theme default CSS
+/*----------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+a,
+.btn,
+button,
+span,
+p,
+input,
+select,
+textarea,
+li,
+imm,
+*::after,
+*::before,
+.transition-3,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+    outline: none;
+    text-decoration: none;
+}
+
+
+
+
+/*common css */
+
+.mt-70 {
+    margin-top: 70px;
+}
+
+.bg-small-white {
+    background-color: #f0f7fc;
+}
+
+.first-section {
+    border-radius: 20px;
+    padding: 15px 50px 60px;
+    margin-bottom: 55px;
+    background-color: #f0f7fc;
+}
+
+.first-section {
+    margin: 40px 50px;
+}
+
+.section-title {
+    margin-top: 85px;
+}
+
+.section-title h1 {
+    font-size: 47px;
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #000;
+    font-weight: 600;
+}
+
+.pricing-area .section-title span {
+    font-size: 22px;
+    color: #000;
+    font-family: "Roboto", sans-serif;
+}
+
+
+/*price switch */
+
+.mb-8 {
+    margin-bottom: 8px !important;
+}
+
+.price-tab {
+    background-color: #fff;
+    padding: 12px 10px 5px 10px;
+    border-radius: 10px;
+}
+
+.price-tab {
+    margin-top: 25px;
+}
+
+.price-tab h1 {
+    font-size: 30px;
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.2;
+}
+
+.price-tab h1 span {
+    font-family: "Arimo", sans-serif;
+}
+
+.pricing-area .price-tab .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 29px;
+    top: 4px;
+}
+
+.pricing-area .price-tab .slider {
+    background-color: #0080f7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 35px;
+    cursor: pointer;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+
+.pricing-area .price-tab .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.pricing-area .price-tab .slider::before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    -webkit-transition: al .5s ease;
+    transition: al .5s ease;
+    border-radius: 50%;
+    position: absolute;
+    left: 5px;
+    bottom: 3px;
+}
+
+.pricing-area .price-tab input:checked + .slider {
+    background-color: #25d366;
+    -webkit-box-shadow: 0 0 1px #25d366;
+    box-shadow: 0 0 1px #25d366;
+}
+
+.pricing-area .price-tab input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+
+
+/* price css*/
+
+
+.price-box {
+    padding: 35px 5px 10px 5px;
+    border-radius: 20px;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+    
+}
+
+
+.price-box:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+/*
+.price-box:hover {
+	border-color: #c9ebfa;
+	-webkit-box-shadow: 0 15px 25px 0 rgba(0,11,40,.14);
+	box-shadow: 0 15px 25px 0 rgba(0,11,40,.14);
+}
+*/
+
+.price-1-bg {
+    background-color: #55DCD8;
+}
+
+.price-2-bg {
+    background-color: #53ABF3;
+}
+
+.price-3-bg {
+    background-color: #D487FF;
+}
+
+.price-header-thumb {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.price-header-thumb img {
+    width: 100px;
+    height: 100px;
+}
+
+.price-header {
+    margin-bottom: 37px;
+}
+
+.price-header h3 {
+    font-size: 27px;
+    color: #fefefe;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.price-header h2 {
+    font-size: 69px;
+    color: #fefefe;
+    font-weight: 600;
+}
+
+
+.price-header h2 span {
+    font-size: 20px;
+    color: #fefefe;
+}
+
+
+
+.price-item-list {
+    background-color: #fff;
+    padding: 20px 24px 6px 24px;
+    border-radius: 20px;
+    position: relative;
+    margin: 5px;
+}
+
+.price-item-list ul li {
+    font-size: 18px;
+    color: #474747;
+    margin-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.price-item-list ul li i {
+    font-size: 20px;
+    color: rgba(85, 220, 216);
+    margin-right: 10px;
+}
+
+.price-item-list::after {
+    content: "";
+    position: absolute;
+    top: -12%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-left: 30px solid transparent;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 30px solid transparent;
+    -webkit-transform: rotate(91deg);
+    transform: rotate(91deg);
+}
+
+
+.price-item-list.price-arrow::after {
+    right: 43%;
+    border-right: 30px solid #fff !important;
+}
+
+.price-link {
+    padding: 9px 0 5px 0;
+}
+
+.price-link a {
+    font-size: 22px;
+    color: #fefefe;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.price-link a:hover {
+	background: #fff;
+	padding: 10px 20px;
+	border-radius: 30px;
+	color: #474747;
+}
+
+
+
+
+
+/*pricing css responsive start*/
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    max-width: 1140px;
+}
+
+
+@media (min-width: 1600px) {
+    .container {
+        max-width: 1320px !important;
+    }
+}
+
+
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* Medium devices 768 - 991 */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .price-header h2 {
+        font-size: 60px;
+    }
+
+    .price-item-list ul li {
+        font-size: 16px;
+    }
+
+    .price-item-list.price-arrow::after {
+        right: 39%;
+        top: -11%;
+    }
+
+}
+
+
+@media (max-width: 575px) {
+    .first-section {
+        margin: 10px 0px;
+    }
+
+    .first-section {
+	padding: 0px 0 30px 0;
+}
+
+    .price-item-list ul li {
+        font-size: 16px;
+    }
+
+    .section-title h1 {
+        font-size: 35px;
+    }
+
+    .pricing-area .section-title span {
+        font-size: 18px;
+    }
+
+    .price-tab h1 span {
+        font-size: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+/*freequently css  start */
+
+.freequently-bg {
+    background-color: #F1F1F1;
+}
+
+
+/*accordion css*/
+
+.accordian {
+    display: block;
+    margin: 100px auto;
+    border-radius: 50%;
+    max-width: 805px;
+}
+
+.accordian .accrodion-card {
+	-webkit-box-shadow: 0px 0px 20px #d4d4d4;
+	box-shadow: 0px 0px 20px #d4d4d4;
+	margin-bottom: 25px;
+	float: left;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 10px;
+}
+
+.accordian .accrodion-card .accordion-card-header h3 {
+    cursor: pointer;
+    font-size: 26px;
+    font-weight: 400;
+
+}
+
+.accordian .accrodion-card .accordion-card-header {
+    cursor: pointer;
+    color: #000;
+    position: relative;
+    margin: 0;
+    padding: 9px 20px;
+    font-size: 26px;
+    padding-left: 80px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+
+
+.accordian .accrodion-card .accordion-card-header {
+    position: relative;
+}
+
+.accordian .accrodion-card .accordion-card-header span {
+    position: absolute;
+    left: 20px;
+    top: 12px;
+    height: 25px;
+    width: 25px;
+    color: #000;
+    background-color: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 40px;
+	-webkit-transition:  0.5s ease-in-out;
+	transition:  0.5s ease-in-out;
+}
+
+.accordian .accrodion-card .accordion-card-body {
+    padding: 20px;
+}
+
+.accordian .accrodion-card .accordion-card-body {
+    display: none;
+}
+
+/*open one card by default*/
+.accordian .accrodion-card:nth-child(8) .accordion-card-body {
+    display: block;
+}
+
+.accordian .accrodion-card .accordion-card-body p {
+    font-size: 20px;
+    color: rgb(71, 71, 71);
+    margin: 0px;
+    margin-left: 60px;
+    font-weight: 400;
+    margin-top: -26px;
+}
+
+
+
+/*accordion responsive css*/
+
+/* Medium devices 768 - 991 */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .accordian .accrodion-card .accordion-card-header h3 {
+        font-size: 24px;
+    }
+
+    .accordian .accrodion-card .accordion-card-body p {
+        font-size: 18px;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .accordian .accrodion-card .accordion-card-header h3 {
+        font-size: 19px;
+    }
+
+    .accordian .accrodion-card .accordion-card-body p {
+        font-size: 17px;
+    }
+
+    .accordian .accrodion-card .accordion-card-header span {
+        font-size: 33px;
+    }
+
+}
+
+
+@media (max-width: 575px) {
+    .first-section {
+        margin: 10px 0px;
+    }
+
+   
+
+    .accordian .accrodion-card .accordion-card-header h3 {
+        font-size: 18px;
+    }
+
+    .accordian .accrodion-card .accordion-card-body p {
+        font-size: 16px;
+    }
+
+}
