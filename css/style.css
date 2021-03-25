@@ -436,7 +436,7 @@ p {
 
 #scroll a {
 	position: fixed;
-	bottom: 40px;
+	bottom: 20px;
 	left: 20px;
 	display: -webkit-box;
 	display: -ms-flexbox;
