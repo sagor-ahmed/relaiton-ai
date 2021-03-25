@@ -31,9 +31,9 @@
     07. Automation CSS	
     08. Tailor CSS	
     09. Process CSS	
-    09. Blog CSS	
-    09. Subscribe CSS	
-    10. Footer CSS	
+    10. Blog CSS	
+    11. Subscribe CSS	
+    12. Footer CSS	
    
 -----------------------------------------------------------------------------------*/
 
@@ -54,7 +54,24 @@ body {
     font-weight: normal;
 }
 
-a,.btn,button,span,p,input,select,textarea,li,imm,*::after,*::before,.transition-3,h1,h2,h3,h4,h5,
+a,
+.btn,
+button,
+span,
+p,
+input,
+select,
+textarea,
+li,
+imm,
+*::after,
+*::before,
+.transition-3,
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
     -webkit-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
@@ -258,7 +275,8 @@ p {
 .mb-20 {
     margin-bottom: 20px !important;
 }
-.mt-20{
+
+.mt-20 {
     margin-top: 20px
 }
 
@@ -277,9 +295,11 @@ p {
 .mt-55 {
     margin-top: 55px;
 }
-.mt--3{
-    margin-top: -3px!important;
+
+.mt--3 {
+    margin-top: -3px !important;
 }
+
 .mb-30 {
     margin-bottom: 30px !important;
 }
@@ -656,7 +676,7 @@ Navbar
 }
 
 .responsive-btn {
-    display: none!important;
+    display: none !important;
 }
 
 /*responsive menu start*/
@@ -704,7 +724,7 @@ Navbar
         display: none;
     }
 
-    .main-overlay::after {
+  /*  .main-overlay::after {
         content: "\f00d";
         font-family: "Font Awesome 5 Free";
         font-weight: 900;
@@ -715,31 +735,31 @@ Navbar
         color: #fff;
         cursor: pointer;
         display: block;
+    }*/
+
+    .links {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: #f0f7fc;
+        max-width: 300px;
+        z-index: 1000;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        -webkit-transition: all .5s ease;
+        transition: all .5s ease;
+        display: block;
     }
 
-.links {
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	background: #f0f7fc;
-	max-width: 300px;
-	z-index: 1000;
-	-webkit-transform: translate3d(-100%, 0, 0);
-	transform: translate3d(-100%, 0, 0);
-	-webkit-transition: all .5s ease;
-	transition: all .5s ease;
-	display: block;
-}
-
- .links li {
-	display: block;
-	margin-top: 17px;
-	padding: 0;
-	padding-bottom: 5px;
-	border-bottom: 1px solid rgba(0,0,0,0.4);
-}
+    .links li {
+        display: block;
+        margin-top: 17px;
+        padding: 0;
+        padding-bottom: 5px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    }
 
     .links li a {
         color: #000;
@@ -759,10 +779,32 @@ Navbar
     body.menu-is-active .main-overlay {
         display: block;
     }
+ 
+    
+    body.menu-is-active .bar{
+        background-color: #fff;
+    }
+    body.menu-is-active  .bar:nth-child(2) {
+        opacity: 0;
+    }
 
+     body.menu-is-active .bar:nth-child(1) {
+        -webkit-transform: translateY(8px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
+    }
+
+     body.menu-is-active .bar:nth-child(3) {
+        -webkit-transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    
+    
+    
+  /*  
     body.menu-is-active .menu-trigger {
         display: none;
-    }
+    }*/
 
     body.menu-is-active .nav-center {
         position: absolute;
@@ -770,6 +812,7 @@ Navbar
         left: 0;
         bottom: 0;
         width: 0;
+        transition: all .4s ease-in;
     }
 
     body.menu-is-active .nav-header {
@@ -810,20 +853,20 @@ Navbar
         z-index: 300;
         cursor: pointer;
     }
-    
-    
+
+
     .links .responsive-btn {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	display: block !important;
-	 float: left;
-	padding: 5px 14px;
-	margin-left: 0px;
-	margin-right: 106px;
-}
-    
-   
-    
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: block !important;
+        float: left;
+        padding: 5px 14px;
+        margin-left: 0px;
+        margin-right: 106px;
+    }
+
+
+
 }
 
 
@@ -949,7 +992,7 @@ Navbar
 
 
 /*===================================================================================*/
-/*  04. WHATSAPP MESSSENGER AREA CSS START
+/*  05. WHATSAPP MESSSENGER AREA CSS START
 /*===================================================================================*/
 
 .section-title {
@@ -986,11 +1029,11 @@ Navbar
 }
 
 .section-title .switch {
-	position: relative;
-	display: inline-block;
-	width: 60px;
-	height: 34px;
-	top: 5px;
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    top: 5px;
 }
 
 .slider {
@@ -1098,15 +1141,15 @@ Navbar
     justify-content: center;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
-  /*  -webkit-filter: drop-shadow(0px 40px 15px rgba(147, 65, 212, 0.4));
+    /*  -webkit-filter: drop-shadow(0px 40px 15px rgba(147, 65, 212, 0.4));
     filter: drop-shadow(0px 40px 15px rgba(147, 65, 212, 0.4));*/
 }
 
 .whatsapp-messenger-area .tweet-thumb {
     /* -webkit-filter: drop-shadow(0px 40px 15px rgba(113, 105, 119, 0.3)); */
     /* filter: drop-shadow(0px 40px 15px rgba(113, 105, 119, 0.3)); */
-    -webkit-box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
 
 }
 
@@ -1116,16 +1159,16 @@ Navbar
 }
 
 .automation-area .tweet-thumb {
-  /*  -webkit-filter: drop-shadow(0px 40px 15px rgba(21, 4, 1, 0.3));
+    /*  -webkit-filter: drop-shadow(0px 40px 15px rgba(21, 4, 1, 0.3));
     filter: drop-shadow(0px 40px 15px rgba(21, 4, 1, 0.2));*/
-	-webkit-box-shadow: 5px 5px 20px rgba(23, 20, 20, 0.1)!important;
-	box-shadow: 5px 5px 20px rgba(23, 20, 20, 0.1)!important;
+    -webkit-box-shadow: 5px 5px 20px rgba(23, 20, 20, 0.1) !important;
+    box-shadow: 5px 5px 20px rgba(23, 20, 20, 0.1) !important;
 }
 
 .process-area .tweet-thumb {
-	/* -webkit-filter: drop-shadow(0px 40px 15px rgba(94, 97, 99, 0.3)); */
-	/* filter: drop-shadow(0px 40px 15px rgba(94, 97, 99, 0.3)); */
-	box-shadow: 5px 5px 20px rgba(197, 188, 188, 0.2);
+    /* -webkit-filter: drop-shadow(0px 40px 15px rgba(94, 97, 99, 0.3)); */
+    /* filter: drop-shadow(0px 40px 15px rgba(94, 97, 99, 0.3)); */
+    box-shadow: 5px 5px 20px rgba(197, 188, 188, 0.2);
 }
 
 .tailor-area .tweet-thumb {
@@ -1209,11 +1252,11 @@ Navbar
 
 
 /*===================================================================================*/
-/*  0. DASHBOARD CSS START
+/*  06. DASHBOARD CSS START
 /*===================================================================================*/
 
 .first-section.dashboard-area {
-	padding-bottom: ;
+    padding-bottom: ;
 }
 
 .first-section.dashboard-area .wm-mobile {
@@ -1242,7 +1285,7 @@ Navbar
 
 
 /*===================================================================================*/
-/*  0. AUTOMAITON CSS START
+/*  07. AUTOMAITON CSS START
 /*===================================================================================*/
 .first-section.automation-area .tweet-thumb img {
     width: 50px;
@@ -1254,7 +1297,7 @@ Navbar
 }
 
 /*===================================================================================*/
-/*  0. TAILOR CSS START
+/*  08. TAILOR CSS START
 /*===================================================================================*/
 
 .box-10 {
@@ -1271,7 +1314,7 @@ Navbar
 }
 
 /*===================================================================================*/
-/*  0. PROCESS CSS START
+/*  09. PROCESS CSS START
 /*===================================================================================*/
 
 .first-section .process-area .cards .tweet-card .f-card p {
@@ -1344,7 +1387,7 @@ Navbar
 
 
 /*===================================================================================*/
-/*  0. BLOG CSS START
+/*  10. BLOG CSS START
 /*===================================================================================*/
 
 
@@ -1365,7 +1408,7 @@ Navbar
 }
 
 /*===================================================================================*/
-/*  0. SUBSCRIBE CSS START
+/*  11. SUBSCRIBE CSS START
 /*===================================================================================*/
 
 
@@ -1387,17 +1430,17 @@ Navbar
 }
 
 input.submit-btn {
-	outline: none;
-	padding: 18px 18px 18px 18px;
-	width: 50%;
-	border-radius: 15px;
-	background-color: #f1f1f1;
-	display: block;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	margin-bottom: 0px !important;
-	border: 2px solid #f1f1f1;
-	display: block;
+    outline: none;
+    padding: 18px 18px 18px 18px;
+    width: 50%;
+    border-radius: 15px;
+    background-color: #f1f1f1;
+    display: block;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 0px !important;
+    border: 2px solid #f1f1f1;
+    display: block;
 }
 
 input.submit-btn:focus {
@@ -1447,7 +1490,7 @@ input.submit-btn:focus {
 
 
 /*===================================================================================*/
-/*  0. FOOTER CSS START
+/*  12. FOOTER CSS START
 /*===================================================================================*/
 
 .footer-widget-title h2 {

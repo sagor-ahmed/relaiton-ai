@@ -45,22 +45,23 @@
     var mainOverlay = $('.js-main-overlay');
 
     menuTrigger.on('click', function () {
-        body.addClass('menu-is-active');
+        body.toggleClass('menu-is-active');
     });
-
-    mainOverlay.on('click', function () {
+    
+  
+   mainOverlay.on('click', function () {
         body.removeClass('menu-is-active');
     });
 
 
-    $('.links li a').on('click', function () {
+   /* $('.links li a').on('click', function () {
         $('body').removeClass("menu-is-active");
     });
 
-    
-    $(".close-btn").on("click", function () {
+      $(".close-btn").on("click", function () {
         $('body').removeClass("menu-is-active");
     });
+    */
 
 
 
