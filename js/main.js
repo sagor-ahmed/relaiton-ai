@@ -54,11 +54,11 @@
     });
 
 
-   /* $('.links li a').on('click', function () {
+   $('.links li a').on('click', function () {
         $('body').removeClass("menu-is-active");
     });
 
-      $(".close-btn").on("click", function () {
+      /* $(".close-btn").on("click", function () {
         $('body').removeClass("menu-is-active");
     });
     */
