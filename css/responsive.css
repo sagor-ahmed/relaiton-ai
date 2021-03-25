@@ -925,17 +925,15 @@
         font-size: 30px;
     }
 
-    .slider-area p {
-        font-size: 20px;
-    }
 
     .h-btn {
         font-size: 22px;
     }
 
-    .slider-area p {
-        font-size: 17px;
-    }
+   .slider-area p {
+	font-size: 17px;
+	line-height: 21px!important;
+}
 
     .first-section {
         border-radius: 20px;
