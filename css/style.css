@@ -54,24 +54,7 @@ body {
     font-weight: normal;
 }
 
-a,
-.btn,
-button,
-span,
-p,
-input,
-select,
-textarea,
-li,
-imm,
-*::after,
-*::before,
-.transition-3,
-h1,
-h2,
-h3,
-h4,
-h5,
+a,.btn,button,span,p,input,select,textarea,li,imm,*::after,*::before,.transition-3,h1,h2,h3,h4,h5,
 h6 {
     -webkit-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
@@ -275,7 +258,9 @@ p {
 .mb-20 {
     margin-bottom: 20px !important;
 }
-
+.mt-20{
+    margin-top: 20px
+}
 
 .mb-25 {
     margin-bottom: 25px !important;
@@ -292,7 +277,9 @@ p {
 .mt-55 {
     margin-top: 55px;
 }
-
+.mt--3{
+    margin-top: -3px!important;
+}
 .mb-30 {
     margin-bottom: 30px !important;
 }
@@ -668,7 +655,9 @@ Navbar
     color: #0d6aaf;
 }
 
-
+.responsive-btn {
+    display: none!important;
+}
 
 /*responsive menu start*/
 
@@ -728,32 +717,32 @@ Navbar
         display: block;
     }
 
-    .links {
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        background: #000;
-        max-width: 300px;
-        z-index: 1000;
-        -webkit-transform: translate3d(-100%, 0, 0);
-        transform: translate3d(-100%, 0, 0);
-        -webkit-transition: all .5s ease;
-        transition: all .5s ease;
-        display: block;
-    }
+.links {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: #f0f7fc;
+	max-width: 300px;
+	z-index: 1000;
+	-webkit-transform: translate3d(-100%, 0, 0);
+	transform: translate3d(-100%, 0, 0);
+	-webkit-transition: all .5s ease;
+	transition: all .5s ease;
+	display: block;
+}
 
-    .links li {
-        display: block;
-        margin-top: 17px;
-        padding: 0;
-        padding-bottom: 5px;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.30);
-    }
+ .links li {
+	display: block;
+	margin-top: 17px;
+	padding: 0;
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgba(0,0,0,0.4);
+}
 
     .links li a {
-        color: #fff;
+        color: #000;
     }
 
     .links li a:hover {
@@ -821,6 +810,20 @@ Navbar
         z-index: 300;
         cursor: pointer;
     }
+    
+    
+    .links .responsive-btn {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block !important;
+	 float: left;
+	padding: 5px 14px;
+	margin-left: 0px;
+	margin-right: 106px;
+}
+    
+   
+    
 }
 
 
@@ -983,11 +986,11 @@ Navbar
 }
 
 .section-title .switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-    top: 7px;
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 34px;
+	top: 5px;
 }
 
 .slider {
@@ -1079,7 +1082,7 @@ Navbar
 }
 
 .tweet-thumb {
-    background: url("assets/img/Elements/4.png");
+    background: url("../assets/img/Elements/4.png");
     height: 80px;
     width: 80px;
     background-size: cover;
@@ -1209,6 +1212,9 @@ Navbar
 /*  0. DASHBOARD CSS START
 /*===================================================================================*/
 
+.first-section.dashboard-area {
+	padding-bottom: ;
+}
 
 .first-section.dashboard-area .wm-mobile {
     padding: 20px 40px;
@@ -1229,10 +1235,8 @@ Navbar
 }
 
 .dashboard-area .cards {
-    margin-top: 65px;
+    margin-top: 61px;
 }
-
-
 
 
 

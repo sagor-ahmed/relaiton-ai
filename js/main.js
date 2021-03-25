@@ -69,12 +69,9 @@
     // 03. Data-Background Js
 
     $("[data-background").each(function () {
-
         $(this).css("background-image", "url( " + $(this).attr("data-background") + "  )");
-
     });
 
- 
     
        ////////////////////////////////////////////////////
 
