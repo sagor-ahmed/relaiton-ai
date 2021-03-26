@@ -830,9 +830,9 @@ Navbar
         padding-bottom: 0 !important;
     }
 
-    .slider-area {
+  /*  .slider-area {
         margin-top: 90px;
-    }
+    }*/
 
     .navbar-menu {
         position: absolute;

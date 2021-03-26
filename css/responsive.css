@@ -1374,10 +1374,10 @@
     
     
 .tweet-card .f-card.arrow-left::after {
-	left: 37%;
 	top: -56px;
 	-webkit-transform: rotate(89deg);
 	transform: rotate(89deg);
+	left: 147px;
 }
 
 .cards .tweet-card .f-card {
@@ -1389,9 +1389,7 @@
 .automation-area .tweet-thumb {
 	margin-top: 0px !important;
 }
-/*.f-card.arrow-left.width-350 {
-	width: 250px !important;
-}*/
+
  
 .automation-area .tweet-card .f-card.arrow-left.width-350 {
 	width: 100%!important;
@@ -1400,10 +1398,7 @@
 	padding: 16px 20px;
 }
     
-
-    
-    
-    
+ 
 .f-card h3 {
 	font-size: 18px;
 	line-height: 25px;
