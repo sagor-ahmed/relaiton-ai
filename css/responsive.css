@@ -1324,9 +1324,13 @@
         margin: 0 auto;
     }
 
-    .links {
+   /* .links {
         max-width: 265px;
-    }
+    }*/
+    
+    .links {
+	max-width: 253px;
+}
 
     #myTab li {
         text-align: center;
@@ -1373,13 +1377,20 @@
 
     
     
-.tweet-card .f-card.arrow-left::after {
+/*.tweet-card .f-card.arrow-left::after {
 	top: -56px;
 	-webkit-transform: rotate(89deg);
 	transform: rotate(89deg);
 	left: 147px;
-}
+}*/
 
+.tweet-card .f-card.arrow-left::after {
+	top: -56px;
+	-webkit-transform: rotate(89deg);
+	transform: rotate(89deg);
+	left: 94px;
+}
+    
 .cards .tweet-card .f-card {
 	margin: 0 auto;
 	margin-top: 60px;
@@ -1391,9 +1402,13 @@
 }
 
  
-.automation-area .tweet-card .f-card.arrow-left.width-350 {
+/*.automation-area .tweet-card .f-card.arrow-left.width-350 {
 	width: 100%!important;
-}
+}*/
+  .automation-area .tweet-card .f-card.arrow-left.width-350 {
+	width: 250px !important;
+}  
+    
   .cards .tweet-card .f-card {
 	padding: 16px 20px;
 }

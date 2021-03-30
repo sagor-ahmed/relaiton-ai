@@ -308,10 +308,12 @@ a:hover {
 }
 
 .price-item-list ul li i {
-    font-size: 20px;
-    color: rgba(85, 220, 216);
-    margin-right: 10px;
+	font-size: 20px;
+	color: rgba(85, 220, 216);
+	margin-right: 10px;
+	margin-top: 3px;
 }
+
 
 .price-item-list::after {
 	content: "";
@@ -354,6 +356,9 @@ a:hover {
 
 
 
+.price-box i.fas.fa-times {
+    margin-right: 15px;
+}
 
 /*pricing css responsive start*/
 

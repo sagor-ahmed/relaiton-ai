@@ -78,7 +78,7 @@
 
     // 03. owlCarousel Js
 
-    // owlCarousel
+
     $('.carousel-item').owlCarousel({
         loop:true,
         margin:20,
@@ -104,7 +104,7 @@
     
     
  // 04. owlCarousel Js
-    // owlCarousel
+
     $('.tailor-carousel').owlCarousel({
         loop:true,
         margin:50,

@@ -747,8 +747,7 @@ Navbar
         z-index: 1000;
         -webkit-transform: translate3d(-100%, 0, 0);
         transform: translate3d(-100%, 0, 0);
-        -webkit-transition: all .5s ease;
-        transition: all .5s ease;
+        transition: all .4s ease-out;
         display: block;
     }
 
@@ -775,6 +774,7 @@ Navbar
         padding: 40px 29px;
     }
 
+    
     body.menu-is-active .main-overlay {
         display: block;
     }
@@ -811,7 +811,6 @@ Navbar
         left: 0;
         bottom: 0;
         width: 0;
-        transition: all .4s ease-in;
     }
 
     body.menu-is-active .nav-header {
@@ -821,8 +820,6 @@ Navbar
 
     body.menu-is-active #scroll a {
         z-index: 1;
-        -webkit-transition: 0.s;
-        transition: 0.s;
     }
 
     .navbar-menu {
@@ -853,20 +850,20 @@ Navbar
         cursor: pointer;
     }
 
+    .links .responsive-btn {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: block !important;
+        float: left;
+        padding: 5px 25px;
+        margin-left: 0px;
+        margin-right: 106px;
+        border-radius: 30px;
+        font-size: 22px;
+    }
 
-.links .responsive-btn {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	display: block !important;
-	float: left;
-	padding: 5px 25px;
-	margin-left: 0px;
-	margin-right: 106px;
-	border-radius: 30px;
-	font-size: 22px;
-}
 
-
+    
 
 }
 
