@@ -120,6 +120,24 @@
     }
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1230px) {
+    
+    .automation-area .f-card h3 {
+    font-size: 21px;
+}
+    
+ .automation-area .width-350 {
+    width: 330px;
+}   
+    
+  .tailor-area .width-340 {
+    width: 310px;
+}  
+    
+    
+    
+}
+
 @media screen and (min-width: 992px) {
     .whatsapp-messenger-carousel {
         display: none !important;
@@ -475,6 +493,10 @@
         padding: 0 !important;
         padding-top: 20px !important;
     }
+    
+   .m-top-responsive{
+    margin-top: 80px!important;
+}   
 
 
 }
@@ -789,7 +811,23 @@
     #myTab .nav-item a {
         font-size: 30px;
     }
+    
+    .links li a {
+    font-size: 20px;
+}
+    
+ .links .responsive-btn {
+    padding: 5px 22px;
+    font-size: 19px;
+}   
 
+
+  .m-top-responsive{
+    margin-top: 80px!important;
+}
+
+    
+    
 }
 
 
