@@ -493,7 +493,7 @@ a:hover {
 .pricing-area {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    display: flex!important;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -501,7 +501,7 @@ a:hover {
     -ms-flex-pack: center;
     justify-content: center;
     gap: 10px;
-} 
+}
     
 .price-box {
     padding: 35px 5px 0px 5px;
@@ -536,11 +536,15 @@ a:hover {
     display: none;
 }
 
-@media (max-width: 992px) { 
+@media (max-width: 991px) { 
     
     .responsive-pricing-area{
     display: block;
 }
+ 
+ section.first-section.bg-small-white.pricing-area {
+    display: none;
+}   
     
 }
 
@@ -758,7 +762,117 @@ a:hover {
 
 
 
+@media (max-width: 360px) {
+    
 
+/* */ 
+        
+.price-header-thumb img {
+    width: 25px;
+    height: 25px;
+}
+    
+ .price-header-thumb {
+    width: 45px;
+    height: 45px;
+}   
+    
+  .price-responsive-item ul li i {
+    font-size: 12px;
+}  
+    .price-header h2 {
+    font-size: 10px;
+}
+    
+.price-header h2 span {
+    font-size: 10px;
+}
+ .price-header h3 {
+    font-size: 10px;
+}   
+ .price-responsive-item ul li i {
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+} 
+    
+ .price-box i.fas.fa-times {
+    margin: 0;
+}   
+ 
+.r-price-box {
+    margin-top: 192px;
+}  
+    
+.r-price-box ul li {
+    font-size: 10px;
+    margin-bottom: 8px;
+}
+    
+
+  .mb-35 {
+    margin-bottom: 20px!important;
+}
+
+.price-responsive-item ul li {
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+
+
+
+}
+
+@media (max-width: 342px){
+    .r-price-box ul li {
+    font-size: 10px;
+}
+    
+.price-responsive-item ul li {
+    margin-bottom: 4px;
+}  
+   
+  .pricing-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 7px;
+}  
+    
+  .r-price-box {
+    margin-top: 175px;
+}  
+    .r-price-box ul li {
+    font-size: 10px;
+    margin-bottom: 8px;
+}
+}
+
+
+@media only screen and (min-width: 365px) and (max-width: 575px) {
+
+.r-price-box ul li {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+ .mb-35 {
+    margin-bottom: 14px;
+}
+    
+ .r-price-box {
+    margin-top: 188px;
+}   
+    
+    
+
+}
 
 
 
