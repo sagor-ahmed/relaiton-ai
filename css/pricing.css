@@ -703,16 +703,12 @@ a:hover {
         font-size: 20px;
     }
     
+   
     
     
+    /* */
     
-
-}
-
-
-@media (max-width: 360px) {
-      
-  .price-header-thumb img {
+      .price-header-thumb img {
     width: 25px;
     height: 25px;
 }
@@ -756,12 +752,9 @@ a:hover {
     
     
     
-    
-    
-    
 
-    
 }
+
 
 
 
