@@ -746,10 +746,10 @@ a:hover {
         margin-top: 102px;
     }
 
-    .r-price-box ul li {
-        font-size: 10px;
-        margin-bottom: 10px;
-    }
+  .r-price-box ul li {
+	font-size: 10px;
+	margin-bottom: 9px;
+}
 
 
     /* */
@@ -859,21 +859,35 @@ a:hover {
 
 }
 
-@media only screen and (min-width: 355px) and (max-width: 360px){
+@media only screen and (min-width: 355px) and (max-width: 360px) {
     .r-price-box ul li {
         font-size: 10px;
         margin-bottom: 12px;
-    } 
- 
+    }
+
+}
+
+@media only screen and (min-width: 346px) and (max-width: 354px) {
+
+    .r-price-box {
+	margin-top: 104px;
+}
+
+    .r-price-box ul li {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
 }
 
 
-@media only screen and (min-width: 338px) and (max-width: 345px){
-   .r-price-box ul li {
-	font-size: 10px;
-	margin-bottom: 7px;
-}
-    
+
+@media only screen and (min-width: 338px) and (max-width: 345px) {
+    .r-price-box ul li {
+        font-size: 10px;
+        margin-bottom: 7px;
+    }
+
 }
 
 
