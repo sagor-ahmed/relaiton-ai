@@ -685,8 +685,25 @@ a:hover {
     }
 
 
+    .price-box.price-3-bg.mt-30 {
+        padding: 14px 3px 0px 3px;
+    }
+
 
     /* */
+
+    .price-box .price-header h3 {
+        font-size: 9px;
+    }
+
+    .price-box .price-header h2 {
+        font-size: 9px;
+    }
+
+    .price-box .price-header h2 span {
+        font-size: 9px;
+    }
+
 
     .price-header {
         margin-bottom: 5px;
@@ -716,23 +733,7 @@ a:hover {
     }
 
     .price-responsive-item ul li i {
-        font-size: 12px;
-    }
-
-    .price-header h2 {
-        font-size: 10px;
-    }
-
-    .price-header h2 span {
-        font-size: 10px;
-    }
-
-    .price-header h3 {
-        font-size: 10px;
-    }
-
-    .price-responsive-item ul li i {
-        font-size: 12px;
+        font-size: 11px;
         text-align: center;
         margin: 0;
     }
@@ -761,9 +762,8 @@ a:hover {
 }
 
 
-@media (max-width: 360px) {
 
-    /* */
+@media (max-width: 360px) {
 
     .price-header-thumb img {
         width: 25px;
@@ -821,12 +821,11 @@ a:hover {
     }
 
 
-
-
 }
 
 
-@media (max-width: 342px) {
+
+@media (max-width: 336px) {
     .r-price-box ul li {
         font-size: 10px;
     }
@@ -860,7 +859,22 @@ a:hover {
 
 }
 
+@media only screen and (min-width: 355px) and (max-width: 360px){
+    .r-price-box ul li {
+        font-size: 10px;
+        margin-bottom: 12px;
+    } 
+ 
+}
 
+
+@media only screen and (min-width: 338px) and (max-width: 345px){
+   .r-price-box ul li {
+	font-size: 10px;
+	margin-bottom: 7px;
+}
+    
+}
 
 
 
