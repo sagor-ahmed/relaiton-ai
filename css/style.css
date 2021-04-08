@@ -1802,11 +1802,23 @@ input.submit-btn:focus {
 
 /* email modal */
 
+/*
 
 #email-modal {
     border-radius: 60px;
     position: relative;
     margin-top: -212px;
+    display: none;
+}
+*/
+
+#email-modal {
+    border-radius: 60px;
+    position: fixed;
+    z-index: 99999;
+    top: 50%;
+    /* left: 50%; */
+    transform: translateY(-50%);
     display: none;
 }
 
