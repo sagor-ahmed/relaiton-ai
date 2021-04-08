@@ -22,7 +22,8 @@
     ===================
 
     01. Theme default CSS	
-    10. Footer CSS	
+    02.Pricing css
+    03.Freequently css
    
 -----------------------------------------------------------------------------------*/
 
@@ -33,14 +34,17 @@
 * {
     margin: 0;
     padding: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+    -webkit-box-sizing: ;
+    inherit;
+    box-sizing: inherit
 }
 
 body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: normal;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 a,
@@ -81,9 +85,9 @@ a:hover {
 }
 
 
-
-
-/*common css */
+/*----------------------------------------*/
+/*  COMMON CSS START
+/*----------------------------------------*/
 
 
 .box-4 {
@@ -138,8 +142,10 @@ a:hover {
     font-family: "Roboto", sans-serif;
 }
 
+/*----------------------------------------*/
+/*  PRICING SWITCH  CSS START
+/*----------------------------------------*/
 
-/*price switch */
 
 .mb-8 {
     margin-bottom: 8px !important;
@@ -219,7 +225,9 @@ a:hover {
 
 
 
-/* price css*/
+/*----------------------------------------*/
+/*  PRICING CSS  START
+/*----------------------------------------*/
 
 
 .price-box {
@@ -230,11 +238,16 @@ a:hover {
 
 }
 
-/*
+.first-section.bg-small-white.pricing-area {
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+}
+
 .price-box:hover {
-	-webkit-transform: scale(1.05);
-	transform: scale(1.05);
-}*/
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
 
 /*
 .price-box:hover {
@@ -295,8 +308,6 @@ a:hover {
     color: #fefefe;
 }
 
-
-
 .price-item-list {
     background-color: #fff;
     padding: 20px 24px 6px 24px;
@@ -321,7 +332,6 @@ a:hover {
     margin-top: 3px;
 }
 
-
 .price-item-list::after {
     content: "";
     position: absolute;
@@ -335,7 +345,6 @@ a:hover {
     -webkit-transform: rotate(91deg);
     transform: rotate(91deg);
 }
-
 
 .price-item-list.price-arrow::after {
     right: 43%;
@@ -368,7 +377,35 @@ a:hover {
     margin-top: 30px;
 }
 
-/*pricing css responsive start*/
+
+/* PRICE BOTTOM TEXT*/
+
+.pricing-bottom-text {
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 23px;
+}
+
+.pricing-bottom-text p {
+    color: #545454;
+    font-size: 24px;
+    line-height: 38px;
+    word-break: break-word;
+}
+
+.pricing-bottom-text p:first-child {
+    padding-left: 65px;
+    margin: 0;
+}
+
+.pricing-bottom-text p:last-child {
+    padding-left: 204px;
+}
+
+
+/*----------------------------------------*/
+/*  PRICING CSS RESPONSIVE CSS START 
+/*----------------------------------------*/
 
 
 
@@ -379,17 +416,28 @@ a:hover {
 }
 
 
-
 @media (min-width: 1400px) {
     .container {
-        max-width: 1140px;
+        max-width: 1230px;
     }
 }
 
+
+@media (min-width: 1400px) {
+
+    .first-section .bg-small-white .pricing-area .container {
+        max-width: 1230px;
+    }
+
+}
+
+
+/* laptop devices 1200 - 1600 */
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {}
+
+
 /* Medium devices 768 - 991 */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-
-
 
     .price-item-list ul li {
         font-size: 16px;
@@ -437,10 +485,6 @@ a:hover {
         font-size: 20px;
     }
 
-
-
-
-
     .price-header-thumb {
         padding: 50px;
         background-color: #fff;
@@ -474,9 +518,6 @@ a:hover {
         -ms-flex-align: center;
         align-items: center;
     }
-
-
-
 
 
     .first-section {
@@ -532,8 +573,6 @@ a:hover {
 
 }
 
-
-
 .responsive-pricing-area {
     display: none;
 }
@@ -553,7 +592,7 @@ a:hover {
 
 @media (max-width: 767px) {
 
-    /* dfh*/
+    /*  Price css */
 
     .price-box {
         padding: 35px 5px 0px 5px;
@@ -566,12 +605,10 @@ a:hover {
         margin-bottom: 15px;
     }
 
-
     .price-header h2 {
         font-size: 19px;
         margin-bottom: 15px;
     }
-
 
     .r-price-box {
         margin-top: 234px;
@@ -590,7 +627,6 @@ a:hover {
         justify-content: center;
         gap: 10px;
     }
-
 
     .r-price-box ul li {
         font-size: 17px;
@@ -619,7 +655,6 @@ a:hover {
         height: 100px;
         border-radius: 50%;
     }
-
 
     .price-header-thumb img {
         width: 50px;
@@ -652,13 +687,7 @@ a:hover {
     .price-responsive-item ul li {
         text-align: center;
     }
-
-
-
-
-
 }
-
 
 
 @media (max-width: 575px) {
@@ -688,7 +717,6 @@ a:hover {
     .price-box.price-3-bg.mt-30 {
         padding: 14px 3px 0px 3px;
     }
-
 
     /* */
 
@@ -746,21 +774,16 @@ a:hover {
         margin-top: 102px;
     }
 
-  .r-price-box ul li {
-	font-size: 10px;
-	margin-bottom: 9px;
-}
-
-
-    /* */
+    .r-price-box ul li {
+        font-size: 10px;
+        margin-bottom: 9px;
+    }
 
     .price-box {
         padding: 14px 5px 0px 5px;
     }
 
-
 }
-
 
 
 @media (max-width: 360px) {
@@ -820,9 +843,7 @@ a:hover {
         margin-bottom: 3px;
     }
 
-
 }
-
 
 
 @media (max-width: 336px) {
@@ -870,16 +891,14 @@ a:hover {
 @media only screen and (min-width: 346px) and (max-width: 354px) {
 
     .r-price-box {
-	margin-top: 104px;
-}
+        margin-top: 104px;
+    }
 
     .r-price-box ul li {
         font-size: 10px;
         margin-bottom: 10px;
     }
-
 }
-
 
 
 @media only screen and (min-width: 338px) and (max-width: 345px) {
@@ -891,8 +910,17 @@ a:hover {
 }
 
 
+/*----------------------------------------*/
+/*  PRICING CSS RESPONSIVE END
+/*----------------------------------------*/
 
-/*freequently css  start */
+
+
+
+/*----------------------------------------*/
+/*  FREEQUENTLY CSS START 
+/*----------------------------------------*/
+
 
 .freequently-bg {
     background-color: #F1F1F1;
@@ -900,30 +928,45 @@ a:hover {
 
 
 /*accordion css*/
-
 .accordian {
     display: block;
     margin: 20px auto;
     border-radius: 50%;
-    max-width: 805px;
+    max-width: 890px;
+}
+
+.first-section.freequently-bg.freequently-question-area .section-title {
+    margin-top: -2px;
+    margin-bottom: 0px !important;
+}
+
+.first-section.freequently-bg.freequently-question-area {
+    padding-bottom: 5px;
+    margin-top: 0px;
 }
 
 .accordian .accrodion-card {
-    -webkit-box-shadow: 0px 0px 20px #d4d4d4;
-    box-shadow: 0px 0px 20px #d4d4d4;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     float: left;
     width: 100%;
     background-color: #fff;
     border-radius: 10px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+
+.freequently-question-area .section-title h1 {
+    font-size: 53px
 }
 
 .accordian .accrodion-card .accordion-card-header h3 {
     cursor: pointer;
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 400;
     margin-bottom: 0px;
     line-height: 1.3;
+    letter-spacing: 1px;
+    color: #231f20;
 }
 
 .accordian .accrodion-card .accordion-card-header {
@@ -933,7 +976,7 @@ a:hover {
     margin: 0;
     padding: 9px 20px;
     font-size: 26px;
-    padding-left: 80px;
+    padding-left: 85px;
     font-weight: 400;
     padding-top: 10px;
 }
@@ -945,7 +988,7 @@ a:hover {
 
 .accordian .accrodion-card .accordion-card-header span {
     position: absolute;
-    left: 20px;
+    left: 23px;
     top: 0;
     height: 100%;
     width: 25px;
@@ -954,7 +997,7 @@ a:hover {
     border-radius: 50%;
     text-align: center;
     line-height: 25px;
-    font-size: 40px;
+    font-size: 48px;
     -webkit-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out;
     display: -webkit-box;
@@ -979,7 +1022,7 @@ a:hover {
 }
 
 .accordian .accrodion-card .accordion-card-body p {
-    font-size: 20px;
+    font-size: 22px;
     color: rgb(71, 71, 71);
     margin: 0px;
     margin-left: 60px;
@@ -988,12 +1031,32 @@ a:hover {
 }
 
 
+/* Accordion bottom text */
+.accordion-bottom-text {
+    text-align: center;
+    margin: 0 auto;
+}
 
-/*accordion responsive css*/
+.accordion-bottom-text p {
+    font-size: 25px;
+    color: #545454;
+}
+
+.accordion-bottom-text p a {
+    text-decoration: underline;
+}
+
+
+
+
+/*------------------------------------------------------*/
+/*  FREEQUENTLY ACCORDION RESPONSIVE CSS START 
+/*------------------------------------------------------*/
+
+
 
 /* Medium devices 768 - 991 */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-
     .accordian .accrodion-card .accordion-card-header h3 {
         font-size: 24px;
     }
@@ -1002,8 +1065,10 @@ a:hover {
         font-size: 18px;
     }
 
+    .accordion-bottom-text p {
+        font-size: 21px;
+    }
 }
-
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .accordian .accrodion-card .accordion-card-header h3 {
@@ -1017,27 +1082,25 @@ a:hover {
     .accordian .accrodion-card .accordion-card-header span {
         font-size: 33px;
     }
+
+    .accordion-bottom-text p {
+        font-size: 20px;
+    }
 }
+
 
 
 @media (max-width: 992px) {
     .price-none {
         display: none;
     }
-
 }
 
-@media (min-width: 1500px){
-    
-    .section-title {
-    margin-bottom: 60px;
-}
-    
-    
-}
+
 
 @media (max-width: 575px) {
-    
+
+
     .accordian .accrodion-card .accordion-card-header h3 {
         font-size: 18px;
     }
@@ -1046,4 +1109,12 @@ a:hover {
         font-size: 16px;
     }
 
+    .accordion-bottom-text p {
+        font-size: 15px;
+    }
+
 }
+
+/*------------------------------------------------------*/
+/*  FREEQUENTLY ACCORDION RESPONSIVE CSS END 
+/*------------------------------------------------------*/
