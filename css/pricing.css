@@ -142,6 +142,12 @@ a:hover {
     font-family: "Roboto", sans-serif;
 }
 
+.responsive-price-title  .section-title span {
+    font-size: 22px;
+    color: #000;
+    font-family: "Roboto", sans-serif;
+}
+
 /*----------------------------------------*/
 /*  PRICING SWITCH  CSS START
 /*----------------------------------------*/
@@ -439,6 +445,11 @@ a:hover {
 /* Medium devices 768 - 991 */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
+ .responsive-price-title.first-section.bg-small-white .section-title {
+    margin: 0 auto;
+    max-width: 400px;
+}
+    
     .price-item-list ul li {
         font-size: 16px;
     }
@@ -731,7 +742,6 @@ a:hover {
     .price-box .price-header h2 span {
         font-size: 9px;
     }
-
 
     .price-header {
         margin-bottom: 5px;
