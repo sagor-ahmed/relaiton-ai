@@ -1800,30 +1800,7 @@ input.submit-btn:focus {
 }
 
 
-.email-close-btn:hover {
-    cursor: pointer;
-}
-
-
-
-
-
-
 /* email modal */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #email-modal {
@@ -1841,6 +1818,10 @@ span.email-close-btn {
     color: #fff;
 }
 
+.email-close-btn:hover {
+    cursor: pointer;
+}
+
 .email-modal .learn-how {
     text-align: center;
     margin: 0 auto;
@@ -1851,6 +1832,7 @@ span.email-close-btn {
     margin-bottom: 20px;
 }
 
+
 .email-modal-content {
     background: #4f14a5;
     border-radius: 10px;
@@ -1858,6 +1840,7 @@ span.email-close-btn {
     width: 70%;
     display: block;
 }
+
 
 .email-modal-content .h-btn {
     outline: none;
@@ -1911,16 +1894,12 @@ span.email-close-btn {
 }
 
 
-
-
-
-
 /* thankyou modal */
 
 
 #thankyou-modal {
-	position: relative;
-	margin-top: -391px;
+    position: relative;
+    margin-top: -391px;
     display: none;
 }
 
@@ -1933,10 +1912,10 @@ span.email-close-btn {
 }
 
 .thankyou-modal-content p {
-	color: #f9f9f9;
-	font-size: 28px;
-	font-weight: 400;
-	line-height: 1.3;
+    color: #f9f9f9;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.3;
 }
 
 .thankyou-modal-content {
@@ -1946,17 +1925,13 @@ span.email-close-btn {
 }
 
 .thankyou-close-btn {
-	position: absolute;
-	right: 44%;
-	top: -25px;
-	font-size: 80px;
-	color: #fff;
+    position: absolute;
+    right: 44%;
+    top: -25px;
+    font-size: 80px;
+    color: #fff;
 }
+
 .thankyou-close-btn:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
-
-
-
-
-

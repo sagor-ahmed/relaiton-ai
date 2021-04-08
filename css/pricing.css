@@ -903,7 +903,7 @@ a:hover {
 
 .accordian {
     display: block;
-    margin: 20px 0 auto;
+    margin: 20px auto;
     border-radius: 50%;
     max-width: 805px;
 }
@@ -937,7 +937,6 @@ a:hover {
     font-weight: 400;
     padding-top: 10px;
 }
-
 
 
 .accordian .accrodion-card .accordion-card-header {
@@ -1003,10 +1002,6 @@ a:hover {
         font-size: 18px;
     }
 
-
-
-
-
 }
 
 
@@ -1022,25 +1017,27 @@ a:hover {
     .accordian .accrodion-card .accordion-card-header span {
         font-size: 33px;
     }
-
 }
 
-@media (max-width: 992px) {
 
+@media (max-width: 992px) {
     .price-none {
         display: none;
     }
 
-
 }
 
-
+@media (min-width: 1500px){
+    
+    .section-title {
+    margin-bottom: 60px;
+}
+    
+    
+}
 
 @media (max-width: 575px) {
-    /*   .first-section {
-        margin: 10px 0px;
-    }*/
-
+    
     .accordian .accrodion-card .accordion-card-header h3 {
         font-size: 18px;
     }
