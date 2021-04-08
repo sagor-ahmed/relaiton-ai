@@ -629,6 +629,9 @@ a:hover {
     .mb-35 {
         margin-bottom: 35px;
     }
+    
+    
+ 
 
 
 }
@@ -766,6 +769,7 @@ a:hover {
         max-width: 460px;
         margin: 0 auto;
         padding: 17px 0 9px 0;
+        box-shadow:  0 3px 13px 0 rgb(0 11 40 / 8%);
     }
 
     .responsive-pricing-area ul#nav-tab li {
