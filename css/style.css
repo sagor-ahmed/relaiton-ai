@@ -382,7 +382,7 @@ p {
 }
 
 .width-340 {
-    width: 340px;
+    width: 73%;
 }
 
 .width-370 {
@@ -413,7 +413,9 @@ p {
     max-width: 1200px !important;
 }
 
-
+.cards.whatsapp-c-d-n.ml-35.automation-no-2 .f-card {
+    width: 74%;
+}
 .font-weight-4 {
     font-weight: 400;
 }
