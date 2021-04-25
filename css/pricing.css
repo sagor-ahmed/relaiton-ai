@@ -1,41 +1,8 @@
-/*** 
-====================================================================
-	 Fonts
-====================================================================
-
-***/
-
-@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@300;400;500;700&display=swap');
-
-/*
-	font-family: 'Roboto', sans-serif;
-	font-family: 'Open sans', sans-serif;
-	font-family: 'Arimo', sans-serif;
-*/
-
-/*** 
-
-/*-----------------------------------------------------------------------------------
-
------------------------------------------------------------------------------------
-    CSS INDEX
-    ===================
-
-    01. Theme default CSS	
-    02.Pricing css
-    03.Freequently css
-   
------------------------------------------------------------------------------------*/
-
-/*----------------------------------------*/
-/*  01. Theme default CSS
-/*----------------------------------------*/
 
 * {
     margin: 0;
     padding: 0;
-    -webkit-box-sizing: ;
-    inherit;
+    -webkit-box-sizing: inherit;
     box-sizing: inherit
 }
 
@@ -46,26 +13,7 @@ body {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-
-a,
-.btn,
-button,
-span,
-p,
-input,
-select,
-textarea,
-li,
-imm,
-*::after,
-*::before,
-.transition-3,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+a,.btn,button,span,p,input,select,textarea,li,imm,*::after,*::before,.transition-3,h1,h2,h3,h4,h5,h6 {
     -webkit-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
 }
@@ -84,17 +32,14 @@ a:hover {
     text-decoration: none;
 }
 
-
 /*----------------------------------------*/
 /*  COMMON CSS START
 /*----------------------------------------*/
-
 
 .box-4 {
     padding-left: 4px !important;
     padding-right: 4px !important;
 }
-
 
 .mt-70 {
     margin-top: 70px;
@@ -142,7 +87,6 @@ a:hover {
     font-family: "Roboto", sans-serif;
 }
 
-
 .responsive-price-title .section-title span {
     font-size: 22px;
     color: #000;
@@ -152,7 +96,6 @@ a:hover {
 /*----------------------------------------*/
 /*  PRICING SWITCH  CSS START
 /*----------------------------------------*/
-
 
 .mb-8 {
     margin-bottom: 8px !important;
@@ -231,11 +174,9 @@ a:hover {
 }
 
 
-
 /*----------------------------------------*/
 /*  PRICING CSS  START
 /*----------------------------------------*/
-
 
 .price-box {
     padding: 35px 5px 10px 5px;
@@ -254,15 +195,6 @@ a:hover {
     -webkit-transform: scale(1.03);
     transform: scale(1.03);
 }
-
-
-/*
-.price-box:hover {
-	border-color: #c9ebfa;
-	-webkit-box-shadow: 0 15px 25px 0 rgba(0,11,40,.14);
-	box-shadow: 0 15px 25px 0 rgba(0,11,40,.14);
-}
-*/
 
 .price-1-bg {
     background-color: #55DCD8;
@@ -308,7 +240,6 @@ a:hover {
     color: #fefefe;
     font-weight: 600;
 }
-
 
 .price-header h2 span {
     font-size: 20px;
@@ -384,7 +315,6 @@ a:hover {
     margin-top: 30px;
 }
 
-
 /* PRICE BOTTOM TEXT*/
 
 .pricing-bottom-text {
@@ -414,21 +344,17 @@ a:hover {
 /*  PRICING CSS RESPONSIVE CSS START 
 /*----------------------------------------*/
 
-
-
 @media (min-width: 1600px) {
     .container {
         max-width: 1320px !important;
     }
 }
 
-
 @media (min-width: 1400px) {
     .container {
         max-width: 1230px;
     }
 }
-
 
 @media (min-width: 1400px) {
 
@@ -438,10 +364,8 @@ a:hover {
 
 }
 
-
 /* laptop devices 1200 - 1600 */
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {}
-
 
 /* Medium devices 768 - 991 */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -471,6 +395,7 @@ a:hover {
         text-decoration: none;
         color: #000;
         padding: 8px;
+        -webkit-transition: all 0.1s ease-in-out;
         transition: all 0.1s ease-in-out;
         border-radius: 10px;
     }
@@ -494,10 +419,7 @@ a:hover {
         margin-left: 20px;
     }
 
-
-
-
-
+   /*price item*/
 
     .price-item-list ul li {
         font-size: 16px;
@@ -515,9 +437,9 @@ a:hover {
         margin-top: 3px;
         margin-bottom: 25px;
     }
-
     .price-responsive-item ul li {
         text-align: center;
+        display: block;
     }
 
     .r-price-box ul li {
@@ -535,11 +457,9 @@ a:hover {
         padding-bottom: 80px;
     }
 
-
     .price-header h2 {
         font-size: 28px;
     }
-
 
     .price-header h3 {
         font-size: 20px;
@@ -554,7 +474,6 @@ a:hover {
         height: 100px;
         border-radius: 50%;
     }
-
 
     .price-header-thumb img {
         width: 50px;
@@ -579,17 +498,14 @@ a:hover {
         align-items: center;
     }
 
-
     .first-section {
         margin: 15px;
         padding: 5px;
     }
 
-
     /* */
-
     .r-price-box {
-        margin-top: 214px;
+        margin-top: 214px !important;
         display: block;
     }
 
@@ -614,8 +530,8 @@ a:hover {
         font-size: 25px;
         margin-bottom: 26px;
         color: #474747;
+        display: block;
     }
-
 
     .price-responsive-item ul li i {
         font-size: 35px;
@@ -625,15 +541,10 @@ a:hover {
         margin-bottom: 25px;
     }
 
-
     .mb-35 {
         margin-bottom: 35px;
     }
     
-    
- 
-
-
 }
 
 .responsive-pricing-area {
@@ -641,7 +552,6 @@ a:hover {
 }
 
 @media (max-width: 991px) {
-
     .responsive-pricing-area {
         display: block;
         padding: 60px 0 60px 0 !important;
@@ -650,14 +560,12 @@ a:hover {
     section.first-section.bg-small-white.pricing-area {
         display: none !important;
     }
-
 }
 
 
 @media (max-width: 767px) {
 
     /*  Price css */
-
     .price-box {
         padding: 35px 5px 0px 5px;
         margin-bottom: 30px;
@@ -675,7 +583,7 @@ a:hover {
     }
 
     .r-price-box {
-        margin-top: 234px;
+        margin-top: 234px !important;
         display: block;
     }
 
@@ -696,6 +604,7 @@ a:hover {
         font-size: 17px;
         margin-bottom: 38px;
         color: #474747;
+        display: block;
     }
 
     .price-responsive-item ul li i {
@@ -750,8 +659,8 @@ a:hover {
 
     .price-responsive-item ul li {
         text-align: center;
+        display: block;
     }
-
 
     .responsive-price-title.first-section.bg-small-white .section-title {
         margin: 0 auto;
@@ -759,7 +668,6 @@ a:hover {
     }
 
     /*price Switch tab Responsive css*/
-
     .responsive-pricing-area ul#nav-tab {
         float: right;
     }
@@ -769,6 +677,7 @@ a:hover {
         max-width: 460px;
         margin: 0 auto;
         padding: 17px 0 9px 0;
+        -webkit-box-shadow:  0 3px 13px 0 rgb(0 11 40 / 8%);
         box-shadow:  0 3px 13px 0 rgb(0 11 40 / 8%);
     }
 
@@ -780,6 +689,7 @@ a:hover {
         text-decoration: none;
         color: #000;
         padding: 8px;
+        -webkit-transition: all 0.1s ease-in-out;
         transition: all 0.1s ease-in-out;
         border-radius: 10px;
         font-size: 25px;
@@ -806,10 +716,7 @@ a:hover {
     .price-tab h1 span:nth-child(2) {
         margin-left: 20px;
     }
-
-
 }
-
 
 @media (max-width: 575px) {
 
@@ -834,13 +741,11 @@ a:hover {
         font-size: 20px;
     }
 
-
     .price-box.price-3-bg.mt-30 {
-        padding: 14px 3px 0px 3px;
+        padding: 14px 3px 9px 3px;
     }
 
     /* */
-
     .price-box .price-header h3 {
         font-size: 9px;
     }
@@ -869,7 +774,6 @@ a:hover {
         margin-bottom: 0;
     }
 
-
     .price-header-thumb img {
         width: 25px;
         height: 25px;
@@ -891,7 +795,7 @@ a:hover {
     }
 
     .r-price-box {
-        margin-top: 102px;
+        margin-top: 94px !important;
     }
 
     .r-price-box ul li {
@@ -900,9 +804,8 @@ a:hover {
     }
 
     .price-box {
-        padding: 14px 5px 0px 5px;
+        padding: 14px 5px 9px 5px;
     }
-
 
     /*price switch tab*/
     .responsive-pricing-area .price-tab {
@@ -919,7 +822,6 @@ a:hover {
     .responsive-pricing-area .price-tab ul li a {
         font-size: 14px;
     }
-
 }
 
 
@@ -970,7 +872,6 @@ a:hover {
         margin-bottom: 8px;
     }
 
-
     .mb-35 {
         margin-bottom: 20px !important;
     }
@@ -979,9 +880,7 @@ a:hover {
         text-align: center;
         margin-bottom: 3px;
     }
-
 }
-
 
 @media (max-width: 336px) {
     .r-price-box ul li {
@@ -1013,8 +912,6 @@ a:hover {
         font-size: 10px;
         margin-bottom: 8px;
     }
-
-
 }
 
 @media only screen and (min-width: 355px) and (max-width: 360px) {
@@ -1022,7 +919,6 @@ a:hover {
         font-size: 10px;
         margin-bottom: 12px;
     }
-
 }
 
 @media only screen and (min-width: 346px) and (max-width: 354px) {
@@ -1037,7 +933,6 @@ a:hover {
     }
 }
 
-
 @media only screen and (min-width: 338px) and (max-width: 345px) {
     .r-price-box ul li {
         font-size: 10px;
@@ -1046,23 +941,18 @@ a:hover {
 
 }
 
-
 /*----------------------------------------*/
 /*  PRICING CSS RESPONSIVE END
 /*----------------------------------------*/
-
-
 
 
 /*----------------------------------------*/
 /*  FREEQUENTLY CSS START 
 /*----------------------------------------*/
 
-
 .freequently-bg {
     background-color: #F1F1F1;
 }
-
 
 /*accordion css*/
 .accordian {
@@ -1183,13 +1073,9 @@ a:hover {
     text-decoration: underline;
 }
 
-
-
-
 /*------------------------------------------------------*/
 /*  FREEQUENTLY ACCORDION RESPONSIVE CSS START 
 /*------------------------------------------------------*/
-
 
 
 /* Medium devices 768 - 991 */
@@ -1243,18 +1129,13 @@ a:hover {
     }
 }
 
-
-
 @media (max-width: 992px) {
     .price-none {
         display: none;
     }
 }
 
-
-
 @media (max-width: 575px) {
-
 
     .accordian .accrodion-card .accordion-card-header h3 {
         font-size: 18px;
