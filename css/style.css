@@ -442,7 +442,7 @@ p {
 #scroll a {
     position: fixed;
     bottom: 20px;
-    left: 20px;
+    right: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2148,22 +2148,4 @@ span.email-close-btn {
 
 
  /*================= THANK YOU PAGE RESPONSIVE CSS end =============================*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
